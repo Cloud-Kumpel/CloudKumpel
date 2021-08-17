@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Cloud Kumpel
+title: "About"
 permalink: /about/
 feature-img: "assets/img/header image.png"
 ---
