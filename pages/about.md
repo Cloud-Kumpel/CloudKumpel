@@ -2,8 +2,7 @@
 layout: page
 title: About Cloud Kumpel
 permalink: /about/
-feature-img: "assets/img/pexels/travel.jpeg"
-tags: [Page]
+feature-img: "assets/img/header image.png"
 ---
 
 Hey folks,
