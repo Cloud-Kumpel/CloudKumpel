@@ -4,7 +4,7 @@ url: "https://cloudkumpel.de"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Cloud Kumpel                                    # site's title
-description: "Cloud Kumpel - Modern Collaboration and more..."      # used by search engines
+description: "Cloud Kumpel - Modern Collaboration, Azure and more..."      # used by search engines
 avatar: assets/img/fraktalcloud.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
 
