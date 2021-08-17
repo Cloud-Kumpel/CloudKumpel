@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Cloud Kumpel
 permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
