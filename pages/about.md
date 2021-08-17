@@ -6,9 +6,10 @@ feature-img: "assets/img/pexels/travel.jpeg"
 tags: [Page]
 ---
 
-Type on Strap is based on Type Theme, a free and open-source theme for [Jekyll](http://jekyllrb.com/), licensed under the MIT License.
+Hey folks,
 
-Head over to the [theme's documentation](https://github.io/sylhare/Type-on-Strap) for much more information about Type on Strap or to install this theme on your own Jekyll site.
+welcome to Cloud Kumpel! This site is managed by Adrian Ritter and Marvin Bangert, we both live in the ruhrarea ("Ruhrgebiet") in Germany. We are passionated about Microsoft 365, Modern Collaboration, SharePoint Online, Power Platform, Azure and more...
 
-This file is an example of a page in Jekyll, that automatically shows up in the header navigation, you can delete or modify this file freely.
- 
+Hope you will enjoy this site and maybe learn something new! 🙂
+
+Glück Auf!
