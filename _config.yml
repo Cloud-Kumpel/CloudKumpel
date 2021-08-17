@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
-baseurl: "/CloudKumpel"
-url: "https://cloud-kumpel.github.io"
+baseurl: "/"
+url: "https://cloudkumpel.de"
 
 # THEME-SPECIFIC CONFIGURATION
 title: Cloud Kumpel                                    # site's title
