@@ -63,12 +63,12 @@ html[data-theme="dark"] {
   --code-inline: #d9b600;
   --text-shadow: #2d333b; // text shadow
   --text: #cdd9e5; // text
-  --h1: #d40059; // headers
-  --h2: #b37eff;
-  --h3: #ff66c2;
-  --h4: #00af9e;
-  --h5: #6bac00;
-  --h6: #ff5c00;
+  --h1: #ffffff; // headers
+  --h2: #ffffff;
+  --h3: #ffffff;
+  --h4: #ffffff;
+  --h5: #ffffff;
+  --h6: #ffffff;
   --border: rgba(255, 255, 255, 0.5); // border
   --cusdis--color-text-default: var(--text);
   --cusdis--color-comment-username-text: var(--link);
@@ -115,7 +115,7 @@ html[data-theme="dark"] {
   --base0f: #ff66c2; // Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
 }
 
-// Monokai Theme
+// Monokai Theme  
 //html[data-theme="dark"] {
 //  --base00: #272822; // Default Background
 //  --base01: #383830; // Lighter Background (Used for status bars)
