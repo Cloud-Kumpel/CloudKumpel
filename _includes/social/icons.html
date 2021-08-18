@@ -21,7 +21,7 @@
             {% assign icon = data.icon %}
         {% endif %}
         <li>
-            <a href="https://github.com/Cloud-Kumpel"
+            <a href="{{ data.pre | append: id | append: data.pos }}"
                title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
                target="_blank"
                rel="me">
