@@ -22,4 +22,4 @@ In Message MC261538 the List sync client is called Nucleus.exe, in the newer mes
 As soon as the List sync client is installed, you will see a new icon in your Lists dashboard:
 ![List Sync Icon]("assets/img/posts/2021-08-18/ListSync.png")
 The content of the synced lists is stored in a local database and is available for offline Access. The easiest way to access lists is to install the Lists PWA:
-![Install Lists app]("/assets/img/posts/2021-08-18/InstallListsApp.jpg")
+![Install Lists app]("assets/img/posts/2021-08-18/InstallListsApp.jpg")
