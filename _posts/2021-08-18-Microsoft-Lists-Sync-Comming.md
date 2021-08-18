@@ -38,6 +38,8 @@ To stop the sync of a list, there is an option for that in the list context menu
 
 In case of sync issues, there will be a dedicated view containing all conflicts. From this view you can export conflicting list items as csv.
 
+When starting the synchronisation, the whole list will be synced. All changes are a differential sync. Compared to file sync the required bandwidth is to neglect.
+
 ## Known limitations
 With the start of the new feature, there are some limitations according to this [Microsoft Support article](https://support.microsoft.com/en-us/office/edit-lists-offline-41403c3e-1795-4e07-b56b-ae591cbde2f9):
 ### Only Windows 10
@@ -47,3 +49,30 @@ Not all List operations are available offline. Features that are not available o
 
 ![Not available options]({{"assets/img/posts/2021-08-18/ListOptionsOffline.jpg" | relative_url}})
 ### Not all List types supported
+As expected, if the option "Allow items from this list to be downloaded to offline clients" is disabled the list cannot be synced. (kind of retro) Speaking of retro, lists in "Classic Experience" aren't supported too. To sync a list you must have access to the list, wether it is your List or shared with you. If you loose access, the list is removed from sync.
+
+Content type enabled lists or lists with folders are currently not supported. 
+
+Lists with enabled content approval are also not supported.
+
+Lists with the following field types are not supported:
+
+  * Calculated fields
+  * Lookup fields
+  * Validation of fields
+  * Fields with default values
+  * Multiple lines of text with "Append changes to existing Text" option enabled
+
+## Administrative considerations and options
+By default, List sync is enabled for all users. To controll the list sync behavior there are three group policies available. The policies are part of the OneDrive group policies. The GPOs are:
+
+* Prevent Lists sync from running on the device
+* Prevent users from syncing lists shared from other organizations
+* Prevent users from getting silently signed in to Lists sync with their Windows credentials
+
+You can find details on the gpos in the following [Microsoft Docs Article](https://docs.microsoft.com/en-us/SharePoint/lists-sync-policie).
+
+To controll List sync on unmanaged devices there are the usual options to controll access to SharePoint like conditional access.
+
+## User Adoption
+As List sync is a new feature with some limitations, it should be part of the adoption startegy. 
