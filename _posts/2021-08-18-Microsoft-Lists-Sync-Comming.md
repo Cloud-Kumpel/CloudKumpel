@@ -20,4 +20,4 @@ In Message MC261538 the List sync client is called Nucleus.exe, in the newer mes
 
 ## How does it work?
 As soon as the List sync client is installed, you will see a new icon in your Lists dashboard:
-![Travel]({{ "posts/2021-08-18/ListSync.png" | relative_url}})
+![Travel]({{ "assets/img/posts/2021-08-18/ListSync.png" | relative_url}})
