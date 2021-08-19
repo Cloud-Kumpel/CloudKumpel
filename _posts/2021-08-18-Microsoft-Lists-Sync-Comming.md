@@ -2,7 +2,8 @@
 layout: post
 title: Microsoft Lists Sync is coming back
 tags: [Lists, SharePoint, OneDrive, Nucleus]
-author: get-adr
+author:
+  twitter: adrianritter
 excerpt_separator: <!--more-->
 ---
 # Back to the future
