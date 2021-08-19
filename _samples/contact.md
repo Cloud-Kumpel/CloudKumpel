@@ -7,7 +7,7 @@ Germaniastr. 82
 ## Kontakt
 E-Mail: contact@cloudkumpel.de
 
-## Redaktionell Verantwortlicher
+## Redaktionell Verantwortliche
 Adrian Ritter | Marvin Bangert
 
 ## Haftung für Inhalte
