@@ -3,7 +3,7 @@ baseurl: "/"
 url: "https://cloudkumpel.de"
 
 # THEME-SPECIFIC CONFIGURATION
-title: Cloud Kumpel                                    # site's title
+title: CLOUD KUMPEL                                    # site's title
 description: "Modern Collaboration, Azure and more..."      # used by search engines
 avatar: assets/img/fraktalcloud.png                         # Empty for no avatar in navbar
 favicon: assets/favicon.ico                             # Icon displayed in the tab
