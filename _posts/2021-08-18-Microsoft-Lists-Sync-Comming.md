@@ -2,7 +2,7 @@
 layout: post
 title: Microsoft Lists Sync is coming back
 tags: [Lists, SharePoint, OneDrive, Nucleus]
-author: adr-tag
+author: get-adr
 excerpt_separator: <!--more-->
 ---
 # Back to the future
