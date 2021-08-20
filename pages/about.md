@@ -18,11 +18,44 @@ Hope you will enjoy this site and maybe learn something new! 🙂
 ## Marvin Bangert
 Marvin Bangert is a consultant for Microsoft cloud technologies from Germany working for netgo GmbH. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the organizer of the Power Platform User Group Cologne and a public speaker.
 
-Follow/Contact me on:
-[Twitter](https://twitter.com/marvinbangert){:target="_blank"}
-[GitHub](https://github.com/MarvinBangert){:target="_blank"}
-[LinkedIn](https://www.linkedin.com/in/marvin-bangert/){:target="_blank"}
-[Power Platform User Group Cologne](https://www.meetup.com/de-DE/Cologne-Flow-PowerApps-Meetup/){:target="_blank"}
+{% assign brand = 'twitter' %}
+{% assign icon = "fab fa-" | append: brand %}
+<a href="https://twitter.com/marvinbangert"
+    title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
+    target="_blank"
+    rel="me">
+    <span class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+    </span>
+</a>{% assign brand = 'github' %} {% assign icon = "fab fa-" | append: brand %}
+<a href="https://github.com/MarvinBangert"
+    title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
+    target="_blank"
+    rel="me">
+    <span class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+    </span>
+</a>{% assign brand = 'linkedin' %} {% assign icon = "fab fa-" | append: brand %}
+<a href="https://www.linkedin.com/in/marvin-bangert"
+    title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
+    target="_blank"
+    rel="me">
+    <span class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+    </span>
+</a>{% assign brand = 'meetup' %}{% assign icon = "fab fa-" | append: brand %}
+<a href="https://www.meetup.com/de-DE/Cologne-Flow-PowerApps-Meetup"
+    title="Power Platform User Group Cologne"
+    target="_blank"
+    rel="me">
+    <span class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+    </span>
+</a>
 
 ## Adrian Ritter
 Adrian works as Technical Lead Modern Workplace at Netgo GmbH in Bochum. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
@@ -39,8 +72,8 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
-</a>{% assign brand = 'linkedin' %} {% assign icon = "fab fa-" | append: brand %}
-<a href="https://www.linkedin.com/in/adrianritter"
+</a>{% assign brand = 'github' %} {% assign icon = "fab fa-" | append: brand %}
+<a href="https://github.com/get-adr"
     title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
     target="_blank"
     rel="me">
@@ -48,8 +81,8 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
-</a>{% assign brand = 'github' %} {% assign icon = "fab fa-" | append: brand %}
-<a href="https://github.com/get-adr"
+</a>{% assign brand = 'linkedin' %} {% assign icon = "fab fa-" | append: brand %}
+<a href="https://www.linkedin.com/in/adrianritter"
     title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
     target="_blank"
     rel="me">
