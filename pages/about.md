@@ -39,7 +39,17 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
-</a> {% assign brand = 'linkedin' %} {% assign icon = "fab fa-" | append: brand %}<a href="https://www.linkedin.com/in/adrianritter"
+</a>{% assign brand = 'linkedin' %} {% assign icon = "fab fa-" | append: brand %}
+<a href="https://www.linkedin.com/in/adrianritter"
+    title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
+    target="_blank"
+    rel="me">
+    <span class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+    </span>
+</a>{% assign brand = 'github' %} {% assign icon = "fab fa-" | append: brand %}
+<a href="https://github.com/get-adr"
     title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
     target="_blank"
     rel="me">
