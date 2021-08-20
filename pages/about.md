@@ -18,7 +18,7 @@ Hope you will enjoy this site and maybe learn something new! 🙂
 ## Marvin Bangert
 Marvin Bangert is a consultant for Microsoft cloud technologies from Germany working for netgo GmbH. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the organizer of the Power Platform User Group Cologne and a public speaker.
 
-Contact me on:
+Follow/Contact me on:
 [Twitter](https://twitter.com/marvinbangert){:target="_blank"}
 [GitHub](https://github.com/MarvinBangert){:target="_blank"}
 [LinkedIn](https://www.linkedin.com/in/marvin-bangert/){:target="_blank"}
