@@ -12,3 +12,7 @@ welcome to Cloud Kumpel! This site is managed by Adrian Ritter and Marvin Banger
 Hope you will enjoy this site and maybe learn something new! 🙂
 
 [Glück Auf!](https://en.wikipedia.org/wiki/Gl%C3%BCck_auf){:target="_blank"}
+
+# About Adrian Ritter
+
+# About Marvin Bangert
