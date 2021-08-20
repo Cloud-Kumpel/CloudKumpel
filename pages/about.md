@@ -29,8 +29,8 @@ Adrian works as Technical Lead Modern Workplace at Netgo GmbH in Bochum. For mor
 
 His roots lie in working as a SharePoint consultant. In many projects he was able to gather expert knowledge around business requirements for collaboration and processes as well as user adoption. In addition to his work, he is interested in every type of technology, exchanges with people to get to know new perspectives. During the holidays he loves to sail on the Baltic Sea or the Dutch lakes.
 
-<li>
-    <a href="[{{ data.pre | append: id | append: data.pos }}](https://twitter.com/adrianritter)"
+<span>
+    <a href="https://twitter.com/adrianritter"
     title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
     target="_blank"
     rel="me">
@@ -39,4 +39,4 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="twitter fa-stack-1x fa-inverse"></i>
     </span>
     </a>
-</li>
+</span>
