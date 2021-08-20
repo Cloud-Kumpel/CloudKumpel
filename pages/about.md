@@ -15,6 +15,6 @@ Hope you will enjoy this site and maybe learn something new! 🙂
 
 [Glück Auf!](https://en.wikipedia.org/wiki/Gl%C3%BCck_auf){:target="_blank"}
 
-## About Adrian Ritter
+## Marvin Bangert
+Marvin Bangert is a consultant for Microsoft cloud technologies from Germany working for netgo GmbH. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the organizer of the Power Platform User Group Cologne and a public speaker.
 
-## About Marvin Bangert
