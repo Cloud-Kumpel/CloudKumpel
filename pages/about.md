@@ -16,7 +16,7 @@ Hope you will enjoy this site and maybe learn something new! 🙂
 [Glück Auf!](https://en.wikipedia.org/wiki/Gl%C3%BCck_auf){:target="_blank"}
 
 ## Marvin Bangert
-Marvin Bangert is a consultant for Microsoft cloud technologies from Germany working for netgo GmbH. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the organizer of the Power Platform User Group Cologne and a public speaker.
+<img src="https://pbs.twimg.com/profile_images/841425135299100674/lKHtCyO0_400x400.jpg" width="180" height="180" style="float:right; margin:15px;"></img>Marvin Bangert is a consultant for Microsoft cloud technologies from Germany working for netgo GmbH. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the organizer of the Power Platform User Group Cologne and a public speaker.
 
 {% assign brand = 'twitter' %}
 {% assign icon = "fab fa-" | append: brand %}
@@ -58,7 +58,7 @@ Marvin Bangert is a consultant for Microsoft cloud technologies from Germany wor
 </a>
 
 ## Adrian Ritter
-Adrian works as Technical Lead Modern Workplace at Netgo GmbH in Bochum. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
+<img src="https://pbs.twimg.com/profile_images/979048023132114944/CTrVgNqp_400x400.jpg" width="180" height="180" style="float:left; margin:15px;"></img>Adrian works as Technical Lead Modern Workplace at Netgo GmbH in Bochum. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
 
 His roots lie in working as a SharePoint consultant. In many projects he was able to gather expert knowledge around business requirements for collaboration and processes as well as user adoption. In addition to his work, he is interested in every type of technology, exchanges with people to get to know new perspectives. During the holidays he loves to sail on the Baltic Sea or the Dutch lakes.
 
