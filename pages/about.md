@@ -58,7 +58,7 @@ Hope you will enjoy this site and maybe learn something new! 🙂
 </a>
 
 ## Adrian Ritter
-<img alt="Foto Adrian" src="/assets/img/adrian_180x180.jpg" width="180" height="180" style="float:left; margin:15px;"/>Adrian works as Technical Lead Modern Workplace at Netgo GmbH in Bochum. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
+<img alt="Foto Adrian" src="/assets/img/adrian_180x180.jpg" width="180" height="180" style="float:left; margin:15px;"/>Adrian works as Cloud Architect. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
 
 His roots lie in working as a SharePoint consultant. In many projects he was able to gather expert knowledge around business requirements for collaboration and processes as well as user adoption. In addition to his work, he is interested in every type of technology, exchanges with people to get to know new perspectives. During the holidays he loves to sail on the Baltic Sea or the Dutch lakes.
 
