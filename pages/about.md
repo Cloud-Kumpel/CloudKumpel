@@ -31,7 +31,7 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
 
 {% assign brand = 'twitter' %}
 {% assign icon = "fab fa-" | append: brand %}
-<div>
+<li>
     <a href="https://twitter.com/adrianritter"
     title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
     target="_blank"
@@ -41,10 +41,10 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
     </a>
-</div>
+</li>
 {% assign brand = 'linkedin' %}
 {% assign icon = "fab fa-" | append: brand %}
-<div>
+<li>
     <a href="https://www.linkedin.com/in/adrianritter"
     title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
     target="_blank"
@@ -54,4 +54,17 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
     </a>
-</div>
+</li>
+{% assign brand = 'meetup' %}
+{% assign icon = "fab fa-" | append: brand %}
+<li>
+    <a href="https://www.meetup.com/Microsoft-Teams-MeetUp-Bochum/"
+    title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
+    target="_blank"
+    rel="me">
+    <span class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+    </span>
+    </a>
+</li>
