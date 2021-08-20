@@ -31,7 +31,7 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
 
 {% assign brand = 'twitter' %}
 {% assign icon = "fab fa-" | append: brand %}
-<span>
+<div>
     <a href="https://twitter.com/adrianritter"
     title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
     target="_blank"
@@ -41,10 +41,10 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
     </a>
-</span>
+</div>
 {% assign brand = 'linkedin' %}
 {% assign icon = "fab fa-" | append: brand %}
-<span>
+<div>
     <a href="https://www.linkedin.com/in/adrianritter"
     title="{{ site.data.language.str_follow_on }} {{ brand | remove: '-' | capitalize }}"
     target="_blank"
@@ -54,4 +54,4 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
     </a>
-</span>
+</div>
