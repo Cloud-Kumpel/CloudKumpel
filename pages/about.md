@@ -47,9 +47,7 @@ His roots lie in working as a SharePoint consultant. In many projects he was abl
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
-</a>
-{% assign brand = 'meetup' %}
-{% assign icon = "fab fa-" | append: brand %}
+</a>{% assign brand = 'meetup' %}{% assign icon = "fab fa-" | append: brand %}
 <a href="https://www.meetup.com/Microsoft-Teams-MeetUp-Bochum/"
     title="Teams User Group Standort Bochum"
     target="_blank"
