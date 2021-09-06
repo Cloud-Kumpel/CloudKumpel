@@ -51,7 +51,8 @@ UpdateIf(
     {SortOrder: SortOrder - 1}
 )
 ```
-Lets asume we are clicking on the second item in our example gallery (see picture above) "Adrian" with SortOrder "1". First we check for the item above this item by "ThisItem.SortOrder - 1" to get the item with SortOrder "0" which would be "Marvin". The Item "Marvin" needs to be updated by updating the SortOrder +1 and on the same we update our current item "Adrian" by changing the SortOrder - 1. This would be our result:
+Lets asume we are clicking on the second item in our example gallery (see picture above) "Adrian" with SortOrder "1". First we check for the item above this item by "ThisItem.SortOrder - 1" to get the item with SortOrder "0" which would be "Marvin". The Item "Marvin" needs to be updated by updating the SortOrder +1 and on the same we update our current item "Adrian" by changing the SortOrder - 1. 
+This would be our result:
 ![Reorder Items]({{"assets/img/posts/2021-08-26/Image 508.png" | relative_url}})
 
 To avoid that users will go any further when the SortOrder is "0", we implement the following code on the "Visible" property:
