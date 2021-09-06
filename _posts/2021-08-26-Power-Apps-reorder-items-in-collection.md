@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Power Apps Reorder Collection
+title: Power Apps reorder items in collection
 tags: [Power Apps, HowTo]
 author: MarvinBangert
 excerpt_separator: <!--more-->
