@@ -6,7 +6,7 @@ author: MarvinBangert
 excerpt_separator: <!--more-->
 ---
 
-# Power Apps reorder items in collection
+
 Hey folks,
 
 maybe you already came around the situation, that you want to reorder your Power Apps collection before saving it, to bring your task in the correct order or just want to rearrange it in your source (like SharePoint Online). In this article you will learn how to reorder your collection in an app.
