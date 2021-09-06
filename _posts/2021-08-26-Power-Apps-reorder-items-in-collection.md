@@ -19,6 +19,7 @@ ClearCollect(colChecklist,{})
 ```
 Then we need some values in our Power Apps collection, so we just start with a text input and a button:
 ![Text Input]({{"assets/img/posts/2021-08-26/Image 505.png" | relative_url}})
+
 You can also use a form, dropdown, datepicker etc. we just need to add some information in our collection. On the button we add the following code on "OnSelect":
 ```
 //Syntax Set(variable, value)
@@ -30,6 +31,7 @@ Whenever we click on the button, first of all we count the current amount of row
 
 We can also add a gallery to our app, to see our collection and input:
 ![New Gallery]({{"assets/img/posts/2021-08-26/Image 506.png" | relative_url}})
+
 On your gallery you can sort the collection by the column "SortOrder" on the property "Items" using:
 ```
 //Syntax SortByColumns(source, column, order[Ascending or Descending; Default=Ascending], ...)
@@ -37,6 +39,7 @@ SortByColumns(colChecklist,"SortOrder")
 ```
 Now we need to add two more icons to our gallery: "Up" and "Down" and arrange them in the gallery:
 ![Added Up and Down Arrows]({{"assets/img/posts/2021-08-26/Image 507.png" | relative_url}})
+
 Lets start with the "Up" arrow on property "OnSelect"
 ```
 //Syntax UpdateIf(collection, condition, item, ...)
@@ -50,6 +53,7 @@ UpdateIf(
 ```
 Lets asume we are clicking on the second item in our example gallery (see picture above) "Adrian" with SortOrder "1". First we check for the item above this item by "ThisItem.SortOrder - 1" to get the item with SortOrder "0" which would be "Marvin". The Item "Marvin" needs to be updated by updating the SortOrder +1 and on the same we update our current item "Adrian" by changing the SortOrder - 1. This would be our result:
 ![Reorder Items]({{"assets/img/posts/2021-08-26/Image 508.png" | relative_url}})
+
 To avoid that users will go any further when the SortOrder is "0", we implement the following code on the "Visible" property:
 ```
 //Syntax If(logical_test, true_value, false_value)
