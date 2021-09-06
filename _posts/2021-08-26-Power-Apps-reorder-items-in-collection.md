@@ -1,8 +1,8 @@
 ---
-layout: post
-title: Power Apps Reorder Collection
-tags: [Power Apps, HowTo]
-author: MarvinBangert
+layout: post
+title: Power Apps Reorder Collection
+tags: [Power Apps, HowTo]
+author: MarvinBangert
 excerpt_separator: <!--more-->
 ---
 
