@@ -9,6 +9,7 @@ excerpt_separator: <!--more-->
 ---
 
 There are several moments in Power Automate where unexpected things could happen, like an approval has timed out or send an action has failed. To react on this kind of errors, you could use the "run after" functionality from Power Automate to maybe send an email to the owner of the flow. "Run after" is a functionality to define what will happen if an action "is successful", "has failed", "is skipped" and/or "has timed out". You configure the "run after" always on the action after the action which could get in one of the four states.
+<!--more-->
 
 > _You cannot configure run after on an action directly following a trigger_
 
