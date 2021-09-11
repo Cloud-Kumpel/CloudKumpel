@@ -14,7 +14,7 @@ ConvertTo-PnPClientSidePage
 
 This is our current classic SharePoint Site: 
 
-![classic SharePoint site](assets/img/posts/2019-05-28/classic-876x1024.png)
+![classic SharePoint site]({{"assets/img/posts/2019-05-28/classic-876x1024.png" | relative_url}})
 
 ```PowerShell
 Connect-PnPOnline -Url "https://tenantname.sharepoint.com/sites/sitename"
@@ -26,8 +26,8 @@ This commandlet requires PnP PowerShell version 3.4.1812.0 (December 2018 releas
 
 After sign in, the home site will be migrated to modern design. Instead of overwriting the home site it will create a new page "migrated\_home.aspx".
 
-![](assets/img/posts/2019-05-28/modern-815x1024.png)
+![Modern]({{"assets/img/posts/2019-05-28/modern-815x1024.png" | relative_url}})
 
 As you can see, there are some webparts that are currently not available in modern SharePoint. You will see a notification:
 
-![](assets/img/posts/2019-05-28/noReplacement.png)
+![NoReplacement]({{"assets/img/posts/2019-05-28/noReplacement.png" | relative_url}})
