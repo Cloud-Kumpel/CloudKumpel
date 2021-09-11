@@ -30,21 +30,21 @@ $ctx.Site.DisableFlows = $true;
 $ctx.ExecuteQuery();
 ```
 
-![]({{"assets/img/posts/2019-07-11/Bild-265.png" | relative_url}})
+![]({{"assets/img/posts/2019-11-26/Bild-265.png" | relative_url}})
 
 SharePoint list with Flow and Power Apps visible
 
-![]({{"assets/img/posts/2019-07-11/Bild-268.png" | relative_url}})
+![]({{"assets/img/posts/2019-11-26/Bild-268.png" | relative_url}})
 
 SharePoint list with Flow and Power Apps hidden  
 Customize forms could not be hidden
 
-![]({{"assets/img/posts/2019-07-11/Bild-266-1024x222.png" | relative_url}})
+![]({{"assets/img/posts/2019-11-26/Bild-266-1024x222.png" | relative_url}})
 
 SharePoint library with Flow visible  
 (Power Apps button maybe will come later this/next year)
 
-![]({{"assets/img/posts/2019-07-11/Bild-267-1024x207.png" | relative_url}})
+![]({{"assets/img/posts/2019-11-26/Bild-267-1024x207.png" | relative_url}})
 
 SharePoint library with Flow hidden
 
