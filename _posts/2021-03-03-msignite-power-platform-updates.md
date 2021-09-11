@@ -20,7 +20,7 @@ Am Dienstag, 02.03.2021, um 17:30 Uhr CET ist die #MSIgnite 2021 mit der Keynote
 
 Danach tauchten wir mit Technical Fellow für AI und Mixed Reality [Alex Kipman](https://twitter.com/akipman) ab und sahen eine Vorstellung der neusten Microsoft Plattform: [Microsoft Mesh](https://www.microsoft.com/en-us/mesh). Der Kern von Microsoft Mesh ist eine 3D-Digitalisierung des Nutzers für Meetings als Hologramm oder Avatar, die Teilnahme kann über HoloLens 2, VR Headset, Smartphone, Tablet oder am PC stattfinden.
 
-[![Introducing Microsoft Mesh](https://www.youtube.com/watch?v=Jd2GK0qDtRg)](https://www.youtube.com/watch?v=Jd2GK0qDtRg "Introducing Microsoft Mesh")
+[![Introducing Microsoft Mesh](http://img.youtube.com/vi/Jd2GK0qDtRg/0.jpg)](https://www.youtube.com/watch?v=Jd2GK0qDtRg "Introducing Microsoft Mesh")
 
 © Bereitgestellt von Microsoft
 
@@ -53,8 +53,7 @@ Power Automate Blog: [Automate tasks with Power Automate Desktop for Windows 10]
 
 Kostenfrei herunterladen und starten: [aka.ms/GetStarted-PAD](https://aka.ms/getstarted-pad)
 
-https://www.youtube.com/watch?v=lwpAvKkk2Hc
-[![Power Automate Desktop](https://www.youtube.com/watch?v=lwpAvKkk2Hc)](https://www.youtube.com/watch?v=lwpAvKkk2Hc "Power Automate Desktop")
+[![Power Automate Desktop](http://img.youtube.com/vi/lwpAvKkk2Hc/0.jpg)](https://www.youtube.com/watch?v=lwpAvKkk2Hc "Power Automate Desktop")
 
 © Bereitgestellt von Microsoft
 
