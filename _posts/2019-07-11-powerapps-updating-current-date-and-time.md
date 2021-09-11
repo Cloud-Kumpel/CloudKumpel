@@ -44,13 +44,12 @@ Now you have a Timer with the current date and time in PowerApps.
 If you want to use different formats, here are some more:
 
 "ddd mm/dd/yyyy hh:mm:ss"
-
 ![]({{"assets/img/posts/2019-07-11/Timer002.png" | relative_url}})
+
 "dd.mm.yyyy hh:mm:ss"
-
 ![]({{"assets/img/posts/2019-07-11/Timer004.png" | relative_url}})
-"yyyy-mm-dd hh:mm:ss"
 
+"yyyy-mm-dd hh:mm:ss"
 ![]({{"assets/img/posts/2019-07-11/Timer003.png" | relative_url}})
 
 if you want to change the shown language, just add a comma within the Text()-function:  
