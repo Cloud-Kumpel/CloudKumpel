@@ -16,7 +16,9 @@ Hope you will enjoy this site and maybe learn something new! 🙂
 [Glück Auf!](https://en.wikipedia.org/wiki/Gl%C3%BCck_auf){:target="_blank"}
 
 ## Marvin Bangert
-<img alt="Foto Marvin" src="/assets/img/marvin_180x180.jpg" style="float:right;"/>Marvin Bangert is a consultant for Microsoft cloud technologies from Germany working for netgo GmbH. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the organizer of the Power Platform User Group Cologne and a public speaker.
+<img alt="Foto Marvin" src="/assets/img/marvin_180x180.jpg" style="float:right;"/>Marvin Bangert is a Consultant for Microsoft Cloud technologies from Germany. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the owner of the Power Platform User Group Cologne, public speaker and blogger.
+
+He enjoys having conversation and exchange with people about different kind of topics and technologies, loves to travel the northern countries and learning new things, languages, food etc.
 
 {% assign brand = 'twitter' %}
 {% assign icon = "fab fa-" | append: brand %}
