@@ -9,8 +9,11 @@ excerpt_separator: <!--more-->
 ---
 
 If you want to convert your classic SharePoint sites into modern SharePoint sites, there were released a new commandlets to PnP PowerShell which allows you to achieve this. 
+<!--more-->
 
+```PowerShell
 ConvertTo-PnPClientSidePage
+```
 
 This is our current classic SharePoint Site: 
 
