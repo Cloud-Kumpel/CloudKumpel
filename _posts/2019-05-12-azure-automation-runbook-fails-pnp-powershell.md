@@ -13,7 +13,7 @@ Recently I worked on a project using Azure Automation Runbooks and PnP-PowerShel
 
 So from the console and logs, you could access, you are not able to see more information about the problem. Also if you want to use catch{$\_.Exception.Message} it wouldn't work, because the runbook is never going to this state and just restarts when executing the commandlet:
 
-![](assets/img/posts/2019-05-12/PnPError001-1024x872.png)
+![PnPError]({{"assets/img/posts/2019-05-12/PnPError001-1024x872.png" | relative_url}})
 
 As you can see, after executing the commandlet (Add-PnPView) - "Microsoft.SharePoint.Client.View" - the runbook stops for about one to two minutes and then restarts again.
 
@@ -45,7 +45,7 @@ $view = Add-PnPView -List $listname -Title $viewname -Fields "Title"
 
 Then the runbook runs successfully without any loop.
 
-![](assets/img/posts/2019-05-12/PnPError003-1024x329.png)
+![PnPError003]({{"assets/img/posts/2019-05-12/PnPError003-1024x329.png" | relative_url}})
 
 Thanks again to the Microsoft Support for a great collaboration on this issue and the very fast contacting.
 
