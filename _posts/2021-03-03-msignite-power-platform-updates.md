@@ -20,7 +20,7 @@ Am Dienstag, 02.03.2021, um 17:30 Uhr CET ist die #MSIgnite 2021 mit der Keynote
 
 Danach tauchten wir mit Technical Fellow für AI und Mixed Reality [Alex Kipman](https://twitter.com/akipman) ab und sahen eine Vorstellung der neusten Microsoft Plattform: [Microsoft Mesh](https://www.microsoft.com/en-us/mesh). Der Kern von Microsoft Mesh ist eine 3D-Digitalisierung des Nutzers für Meetings als Hologramm oder Avatar, die Teilnahme kann über HoloLens 2, VR Headset, Smartphone, Tablet oder am PC stattfinden.
 
-https://www.youtube.com/watch?v=Jd2GK0qDtRg
+[![Introducing Microsoft Mesh](https://www.youtube.com/watch?v=Jd2GK0qDtRg)](https://www.youtube.com/watch?v=Jd2GK0qDtRg "Introducing Microsoft Mesh")
 
 © Bereitgestellt von Microsoft
 
@@ -39,7 +39,7 @@ Um 22 Uhr CET zeigte uns [Charles Lamanna](https://twitter.com/clamanna) (Corpor
 
 ## Power Platform Fokus Themen
 
-\[caption id="attachment\_458" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2274.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2274.png" | relative_url}}) © Microsoft
 
 ## Ankündigungen
 
@@ -54,6 +54,7 @@ Power Automate Blog: [Automate tasks with Power Automate Desktop for Windows 10]
 Kostenfrei herunterladen und starten: [aka.ms/GetStarted-PAD](https://aka.ms/getstarted-pad)
 
 https://www.youtube.com/watch?v=lwpAvKkk2Hc
+[![Power Automate Desktop](https://www.youtube.com/watch?v=lwpAvKkk2Hc)](https://www.youtube.com/watch?v=lwpAvKkk2Hc "Power Automate Desktop")
 
 © Bereitgestellt von Microsoft
 
@@ -85,7 +86,7 @@ Power Apps Blog: [Introducing Microsoft Power Fx](https://powerapps.microsoft.co
 Power Apps Blog: [What is Power Fx?](https://powerapps.microsoft.com/en-us/blog/what-is-microsoft-power-fx/)  
 Microsoft Docs: [Microsoft Power Fx overview](https://docs.microsoft.com/en-us/power-platform/power-fx/overview)
 
-\[caption id="attachment\_453" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2272.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2272.png" | relative_url}}) © Microsoft
 
 ### Power BI Premium Per User Lizenz
 
@@ -105,31 +106,31 @@ Vorteile von Direct Query:
 - Immer Nutzung von den aktuellen Daten, keine Datenaktualisierung erforderlich
 - Kein 1 GB Datenlimit
 
-\[caption id="attachment\_457" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2273.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2273.png" | relative_url}}) © Microsoft
 
 ### Endpoint Filtering
 
 anwendbar über DLP (Data Loss Prevention) Policies im Power Platform Admin Center. Für einzelne Konnektoren können nun Endpunkte (IP-Adresse oder FQDN) konfiguriert werden, über die auf den Konnektor zugegriffen werden darf oder geblockt wird. 
 
-\[caption id="attachment\_441" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2264.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2264.png" | relative_url}}) © Microsoft
 
 ### Connector action controls
 
 Es müssen nun nicht mehr Konnektoren komplett blockiert werden, sondern es können einzelne Aktionen der Konnektoren blockiert und erlaubt werden. Zum Beispiel für den Twitter-Konnektor können alle "lesen"-Aktionen freigegeben werden, aber alle "schreiben"-Aktionen blockiert werden.
 
-\[caption id="attachment\_443" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2265.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2265.png" | relative_url}}) © Microsoft
 
 ### Tenant Isolation
 
 Über Regeln kann definiert werden, ob Verbindungen zwischen externen Azure ADs blockiert oder erlaubt werden. Dies können eingehende und ausgehende Verbindungen sein, sodass ein Tenant komplett isoliert oder nur für ausgewählte andere Tenants freigegeben werden kann.
 
-\[caption id="attachment\_446" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2266.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2266.png" | relative_url}}) © Microsoft
 
 ### Tenant wide analytics
 
 Über das Power Platform Admin Center können nun neue Berichte eingesehen werden, die über die gesamte Power Platform gehen und so jede App, jeden Flow und jeden Bericht sehen, die im Tenant erstellt wurden, welche Personen damit arbeiten, welche Konnektoren genutzt werden und potenzielle Risiken über alle Umgebungen.
 
-\[caption id="attachment\_448" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2267.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2267.png" | relative_url}}) © Microsoft
 
 ### Microsoft Information Protection support
 
@@ -137,11 +138,11 @@ Es müssen nun nicht mehr Konnektoren komplett blockiert werden, sondern es kön
 
 MIP (Microsoft Information Protection) wird auch für Dataverse zur Verfügung stehen, sodass Daten mit Ihrer entsprechenden Sensibilität gekennzeichnet werden können. Dieses Label ist dann direkt dem Eintrag zugeordnet, egal wo es in der Power Platform genutzt wird.
 
-\[caption id="attachment\_449" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2268.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2268.png" | relative_url}}) © Microsoft
 
 ### Pro Developers + Power Platform = No Limits
 
-\[caption id="attachment\_450" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2269.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2269.png" | relative_url}}) © Microsoft
 
 ### Azure Networking Connectivity
 
@@ -149,7 +150,7 @@ MIP (Microsoft Information Protection) wird auch für Dataverse zur Verfügung s
 
 Aus der Power Platform können direkt Verbindungen zu Azure Virtual Network aufgebaut werden.
 
-\[caption id="attachment\_451" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2270.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2270.png" | relative_url}}) © Microsoft
 
 ### Customer managed key
 
@@ -157,6 +158,6 @@ Aus der Power Platform können direkt Verbindungen zu Azure Virtual Network aufg
 
 Eigene Keys aus Azure Key Vault können erstellt werden, um Daten in Dataverse direkt zu verschlüsseln.
 
-\[caption id="attachment\_452" align="alignnone" width="1024"\]![]({{"assets/img/posts/2021-03-03/Image-2271.png" | relative_url}}) © Microsoft\[/caption\]
+![]({{"assets/img/posts/2021-03-03/Image-2271.png" | relative_url}}) © Microsoft
 
 ... und viele weitere Ankündigungen zu anderen Microsoft 365, Dynamics 365 und Azure Themen!
