@@ -2,7 +2,7 @@
 layout: post
 title: "Power BI: SharePoint Online Datum und Uhrzeit korrigieren"
 date: "2020-03-13"
-tags: [Office 365, Power BI, HowTo, SharePoint Online]
+tags: [Office 365,Power BI,HowTo,SharePoint Online]
 feature-img: "assets/img/posts/2020-03-13/Image-375.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->

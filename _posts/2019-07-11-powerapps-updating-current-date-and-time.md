@@ -2,7 +2,7 @@
 layout: post
 title: "PowerApps - Updating current Date and Time"
 date: "2019-07-11"
-tags: [Office 365, Power Apps, HowTo]
+tags: [Office 365,Power Apps,HowTo]
 feature-img: "assets/img/posts/2019-07-11/microsoft-powerapps-stacked400x200.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->

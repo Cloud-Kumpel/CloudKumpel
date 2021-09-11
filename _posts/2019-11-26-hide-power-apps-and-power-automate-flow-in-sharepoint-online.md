@@ -2,7 +2,7 @@
 layout: post
 title: "Hide Power Apps and Power Automate (Flow) in SharePoint Online"
 date: "2019-11-26"
-tags: [Office 365, Power Apps, Power Automate, SharePoint Online, PowerShell, HowTo]
+tags: [Office 365,Power Apps,Power Automate,SharePoint Online,PowerShell,HowTo]
 feature-img: "assets/img/posts/2019-11-26/Bild-270.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->

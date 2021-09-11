@@ -2,7 +2,7 @@
 layout: post
 title: "Power Automate: SharePoint Liste durch HTTP-Anforderung aktualisieren"
 date: "2020-03-09"
-tags: [Office 365, Power Automate, HowTo, REST API]
+tags: [Office 365,Power Automate,HowTo,REST API]
 feature-img: "assets/img/posts/2020-03-09/Image-315.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->

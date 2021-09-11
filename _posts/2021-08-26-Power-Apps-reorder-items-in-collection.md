@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Power Apps reorder items in collection
-tags: [Power Apps, HowTo]
+date: "2021-08-26"
+tags: [Power Apps,HowTo]
 author: MarvinBangert
 excerpt_separator: <!--more-->
 ---

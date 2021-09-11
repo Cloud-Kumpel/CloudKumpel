@@ -2,7 +2,7 @@
 layout: post
 title: "Convert classic SharePoint site to modern"
 date: "2019-05-28"
-tags: [Office 365, PowerShell,SharePoint Online, PnP]
+tags: [Office 365,PowerShell,SharePoint Online,PnP]
 author: MarvinBangert
 feature-img: "assets/img/posts/2019-05-28/PowerShell_Icon.png"
 excerpt_separator: <!--more-->

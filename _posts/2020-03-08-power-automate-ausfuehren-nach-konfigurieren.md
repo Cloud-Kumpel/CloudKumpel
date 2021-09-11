@@ -2,7 +2,7 @@
 layout: post
 title: "Power Automate: \"Ausführen nach\" konfigurieren"
 date: "2020-03-08"
-tags: [Office 365, Power Automate, HowTo]
+tags: [Office 365,Power Automate,HowTo]
 feature-img: "assets/img/posts/2020-03-08/Image-306.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->
