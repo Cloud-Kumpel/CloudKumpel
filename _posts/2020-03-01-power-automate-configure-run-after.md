@@ -2,7 +2,7 @@
 layout: post
 title: "Power Automate: Configure \"run after\""
 date: "2020-03-01"
-tags: [Office 365, Power Automate, HowTo, Flow, Workflow]
+tags: [Office 365, Power Automate, HowTo]
 feature-img: "assets/img/posts/2020-03-01/Image-294.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->

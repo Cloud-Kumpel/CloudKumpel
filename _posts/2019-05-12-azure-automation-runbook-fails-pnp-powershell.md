@@ -2,7 +2,7 @@
 layout: post
 title: "Error: Azure Automation - Runbook fails when using PnP-PowerShell"
 date: "2019-05-12"
-tags: [Azure, Azure Automation, PowerShell, Runbooks, PnP]
+tags: [Azure, PowerShell, Runbooks, PnP]
 feature-img: "assets/img/posts/2019-05-12/PnPError002.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->
