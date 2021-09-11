@@ -2,7 +2,7 @@
 layout: post
 title: "Power Automate: Triggerbedingungen"
 date: "2020-04-18"
-tags: [Office 365,Power Automate,HowTo,Deutsch,SharePoint Online]
+tags: [Power Automate,HowTo,Deutsch]
 feature-img: "assets/img/posts/2020-04-18/Image-946.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->
