@@ -46,16 +46,6 @@ collections:
     output: true
     permalink: /:collection/:name
 
-# SITEMAP CONFIG
-# Exclude currently not existent pages
-defaults:
-  -
-    scope:
-      path:            "gallery/**"
-    values:
-      sitemap:         false
-
-
 # BUILD SETTINGS
 sass:
   style: compressed
