@@ -51,7 +51,7 @@ collections:
 defaults:
   -
     scope:
-      path:            "gallery/"
+      path:            "gallery/**"
     values:
       sitemap:         false
 
