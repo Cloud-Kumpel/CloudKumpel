@@ -10,6 +10,8 @@ excerpt_separator: <!--more-->
 
 Seit dem 02. April 2020 sind "beaufsichtigte" Benutzeroberflächenflows (engl. attended UI Flows / UI = User Interface) generell verfügbar. Ich nutze heute mal den Tag, um ein paar Einblicke in UI Flows zu geben und den ersten Automatismus zu erstellen.
 
+<!--more-->
+
 ### Was genau sind Benutzeroberflächenflows?
 
 Benutzeroberflächenflows in Power Automate ermöglichen die Automatisierung von Prozessen für Anwendungen auf dem Desktop oder im Browser, für die es keine eigenen Schnittstellen (APIs) gibt, um diese über einen Konnektor zu automatisieren. Dazu nutzen Benutzeroberflächenflows die RPA-Funktionen (Robotic Process Automation), die es ermöglichen wiederholende Schritte aufzuzeichnen und automatisiert abzuspielen.
