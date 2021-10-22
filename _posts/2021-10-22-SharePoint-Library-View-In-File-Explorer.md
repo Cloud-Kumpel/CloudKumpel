@@ -1,7 +1,7 @@
 ---
 layout: post
 title: SharePoint Library View In File Explorer
-tags: [Libraries,SharePoint Online,WebDAV,Windows Explorer, Edge]
+tags: [Libraries,SharePoint Online,WebDAV,Windows Explorer, Edge, HowTo]
 author: get-adr
 excerpt_separator: <!--more-->
 ---
