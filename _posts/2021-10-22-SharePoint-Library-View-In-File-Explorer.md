@@ -5,7 +5,7 @@ tags: [Libraries,SharePoint Online,WebDAV,Windows Explorer, Edge]
 author: get-adr
 excerpt_separator: <!--more-->
 ---
-Back in the days in SharePoint On Prem there was an Active-X control that let you open a SharePoint Library in Windows Explorer. This was a handy feature, for example mass copying of documents.
+Back in the days in SharePoint On Prem there was a control that let you open a SharePoint Library in Windows Explorer. This was a handy feature, for example mass copying of documents.
 This feature also made it to SharePoint online, but always was depending on Internet Explorer.
 <!--more-->
 Last year Microsoft announced that it will bring this functionality to Microsoft Edge and the Modern UI of SharePoint Online Libraries.
