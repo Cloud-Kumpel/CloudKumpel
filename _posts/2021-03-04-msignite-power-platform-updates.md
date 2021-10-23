@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "#MSIgnite - Power Platform Updates"
-date: "2021-03-03"
+date: "2021-03-04"
 tags: [Power Automate,Power Apps,Power BI,Power Fx,Deutsch,Power Virtual Agents,UI Flows,Ignite]
-feature-img: "assets/img/posts/2021-03-03/Ignite_Header.png"
+feature-img: "assets/img/posts/2021-03-04/Ignite_Header.png"
 author: MarvinBangert
 excerpt_separator: <!--more-->
 ---
@@ -39,7 +39,7 @@ Um 22 Uhr CET zeigte uns [Charles Lamanna](https://twitter.com/clamanna) (Corpor
 
 ## Power Platform Fokus Themen
 
-![]({{"assets/img/posts/2021-03-03/Image-2274.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2274.png" | relative_url}}) © Microsoft
 
 ## Ankündigungen
 
@@ -85,7 +85,7 @@ Power Apps Blog: [Introducing Microsoft Power Fx](https://powerapps.microsoft.co
 Power Apps Blog: [What is Power Fx?](https://powerapps.microsoft.com/en-us/blog/what-is-microsoft-power-fx/)  
 Microsoft Docs: [Microsoft Power Fx overview](https://docs.microsoft.com/en-us/power-platform/power-fx/overview)
 
-![]({{"assets/img/posts/2021-03-03/Image-2272.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2272.png" | relative_url}}) © Microsoft
 
 ### Power BI Premium Per User Lizenz
 
@@ -93,7 +93,7 @@ Zum 2. April 2021 wird die Power BI Premium Per User Lizenz für 20$ / User / Mo
 
 Die Power BI Premium Per User Lizenz wurde bereits auf der letzten Microsoft Ignite im Oktober 2020 angekündigt und war zuletzt in der Private, sowie Public Preview. Die Premium Per User Lizenz beinhaltet dabei alle Power BI Pro Funktionalitäten und noch weitere Funktionen wie automatisches Machine Learning, Cognitive Services, Deployment Pipelines, Advanced Security und vieles mehr.
 
-![]({{"assets/img/posts/2021-03-03/PremiumFeatures-forGIF_White_520x360_REV.gif" | relative_url}})
+![]({{"assets/img/posts/2021-03-04/PremiumFeatures-forGIF_White_520x360_REV.gif" | relative_url}})
 
 ### Direct Query support for Dataverse in Power BI
 
@@ -105,31 +105,31 @@ Vorteile von Direct Query:
 - Immer Nutzung von den aktuellen Daten, keine Datenaktualisierung erforderlich
 - Kein 1 GB Datenlimit
 
-![]({{"assets/img/posts/2021-03-03/Image-2273.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2273.png" | relative_url}}) © Microsoft
 
 ### Endpoint Filtering
 
 anwendbar über DLP (Data Loss Prevention) Policies im Power Platform Admin Center. Für einzelne Konnektoren können nun Endpunkte (IP-Adresse oder FQDN) konfiguriert werden, über die auf den Konnektor zugegriffen werden darf oder geblockt wird. 
 
-![]({{"assets/img/posts/2021-03-03/Image-2264.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2264.png" | relative_url}}) © Microsoft
 
 ### Connector action controls
 
 Es müssen nun nicht mehr Konnektoren komplett blockiert werden, sondern es können einzelne Aktionen der Konnektoren blockiert und erlaubt werden. Zum Beispiel für den Twitter-Konnektor können alle "lesen"-Aktionen freigegeben werden, aber alle "schreiben"-Aktionen blockiert werden.
 
-![]({{"assets/img/posts/2021-03-03/Image-2265.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2265.png" | relative_url}}) © Microsoft
 
 ### Tenant Isolation
 
 Über Regeln kann definiert werden, ob Verbindungen zwischen externen Azure ADs blockiert oder erlaubt werden. Dies können eingehende und ausgehende Verbindungen sein, sodass ein Tenant komplett isoliert oder nur für ausgewählte andere Tenants freigegeben werden kann.
 
-![]({{"assets/img/posts/2021-03-03/Image-2266.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2266.png" | relative_url}}) © Microsoft
 
 ### Tenant wide analytics
 
 Über das Power Platform Admin Center können nun neue Berichte eingesehen werden, die über die gesamte Power Platform gehen und so jede App, jeden Flow und jeden Bericht sehen, die im Tenant erstellt wurden, welche Personen damit arbeiten, welche Konnektoren genutzt werden und potenzielle Risiken über alle Umgebungen.
 
-![]({{"assets/img/posts/2021-03-03/Image-2267.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2267.png" | relative_url}}) © Microsoft
 
 ### Microsoft Information Protection support
 
@@ -137,7 +137,7 @@ Es müssen nun nicht mehr Konnektoren komplett blockiert werden, sondern es kön
 
 MIP (Microsoft Information Protection) wird auch für Dataverse zur Verfügung stehen, sodass Daten mit Ihrer entsprechenden Sensibilität gekennzeichnet werden können. Dieses Label ist dann direkt dem Eintrag zugeordnet, egal wo es in der Power Platform genutzt wird.
 
-![]({{"assets/img/posts/2021-03-03/Image-2268.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2268.png" | relative_url}}) © Microsoft
 
 ### Pro Developers + Power Platform = No Limits
 
@@ -149,7 +149,7 @@ MIP (Microsoft Information Protection) wird auch für Dataverse zur Verfügung s
 
 Aus der Power Platform können direkt Verbindungen zu Azure Virtual Network aufgebaut werden.
 
-![]({{"assets/img/posts/2021-03-03/Image-2270.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2270.png" | relative_url}}) © Microsoft
 
 ### Customer managed key
 
@@ -157,6 +157,6 @@ Aus der Power Platform können direkt Verbindungen zu Azure Virtual Network aufg
 
 Eigene Keys aus Azure Key Vault können erstellt werden, um Daten in Dataverse direkt zu verschlüsseln.
 
-![]({{"assets/img/posts/2021-03-03/Image-2271.png" | relative_url}}) © Microsoft
+![]({{"assets/img/posts/2021-03-04/Image-2271.png" | relative_url}}) © Microsoft
 
 ... und viele weitere Ankündigungen zu anderen Microsoft 365, Dynamics 365 und Azure Themen!
