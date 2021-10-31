@@ -29,7 +29,7 @@ My first thought was using the "SharePoint - Get file content" action within Pow
 This is not what we can use to go on with getting our content. After searching for a while I came across a blog article by _[Paul Murana](https://www.tachytelic.net/2021/05/power-automate-extract-text-from-word-docx-file)_ on how to "Extract text from Word docx files with Power Automate", a fantastic article, you should definitly check out, if you need more information about how the following works in detail!
 
 This is our flow to get the Word document content and create a HTML out of it:
-![]({{"assets/img/posts/2021-10-30/Image 033.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 034.png" | relative_url}})
 
 ### Extract folder:
 
