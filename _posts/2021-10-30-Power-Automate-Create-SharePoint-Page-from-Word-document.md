@@ -179,10 +179,11 @@ Site Address: <Your SharePoint Site Collection>
 File Path: /SitePages/@{triggerOutputs()?['body/{Name}']}.aspx
 ```
 
+This will give us the ItemID of our page, that we just created. 
 
 ### Check out new Page
 
-This will give us the ItemID of our page, that we just created. To edit the content on this page, we need to check it out first. Again we use the "SharePoint - Send an HTTP request to SharePoint" action:
+To edit the content on this page, we need to check it out first. Again we use the "SharePoint - Send an HTTP request to SharePoint" action:
 
 ```JSON
 Site Address: <Your SharePoint Site Collection>
