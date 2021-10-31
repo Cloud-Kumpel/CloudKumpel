@@ -13,7 +13,7 @@ So in general we have two different things to achieve, first we need our Word do
 
 ## What do we need
 
-![]({{"assets/img/posts/2021-10-30/Image-036.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 036.png" | relative_url}})
 
 - Default Document Library "Documents" (or any other library to upload our Word documents to)
 - Document Library "Temp" (for storing temporarily data)
@@ -23,11 +23,11 @@ So in general we have two different things to achieve, first we need our Word do
 ## Get Word document content
 
 My first thought was using the "SharePoint - Get file content" action within Power Automate to get the content of the word document. Unfortunatly we will not get the content as plain text, but as an encoded string:
-![]({{"assets/img/posts/2021-10-30/Image-032.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 032.png" | relative_url}})
 This is not what we can use to go on with getting our content. After searching for a while I came across a blog article by _[Paul Murana](https://www.tachytelic.net/2021/05/power-automate-extract-text-from-word-docx-file)_ on how to "Extract text from Word docx files with Power Automate", a fantastic article, you should definitly check out, if you need more information about how the following works in detail!
 
 This is our flow to get the Word document content and create a HTML out of it:
-![]({{"assets/img/posts/2021-10-30/Image-033.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 033.png" | relative_url}})
 
 ### Extract folder:
 
@@ -40,7 +40,7 @@ Overwrite Flad: Yes
 
 As Paul explains in his article, "a word docx file is actually a zip file that contains a number of folders and files", we can actually extract this content. That's why we need another library "Temp" as destination, to save the extracted content temporarily (you can delete it after extracting the content; In this article we will not delete it afterwards).
 The result of your extracted word document should look like this:
-![]({{"assets/img/posts/2021-10-30/Image-039.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 039.png" | relative_url}})
 
 ### Get file content using path:
 
@@ -99,43 +99,43 @@ The last action within the scope is just to show the final result, so it's just 
 
 ## Create SharePoint Page
 
-![]({{"assets/img/posts/2021-10-30/Image-040.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 040.png" | relative_url}})
 
 Now we can start to create our SharePoint page. Most of this using SharePoint REST API, if you are not familiar with it, check out this [docs](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service).
 
 ### Create a page template
 
 First we need to create a new template page, so we turn to our SharePoint site and on your "Home" site or site contents, click on "New - Page".
-![]({{"assets/img/posts/2021-10-30/Image-041.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 041.png" | relative_url}})
 
 Pick the "Blank" from "Built-in" and select "Create page". When the new site is created, give it a name like "Template". Remove the author from under the page name and start adding some content like different layouts, webparts etc. Also because we want to add some content, add a text webpart and start writing some sentences. This will make it easier to find our content later again and we need some space where to add the content to.
-![]({{"assets/img/posts/2021-10-30/Image-044.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 044.png" | relative_url}})
 
 This is our template, to save it click on the arrow next to "Save as draft" and select "Save as template".
-![]({{"assets/img/posts/2021-10-30/Image-043.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 043.png" | relative_url}})
 Add a name for the page template and click on "Save page template" on the right upper corner.
 
 After this, go back on your "Home" site again, click on "New - Page" again.
-![]({{"assets/img/posts/2021-10-30/Image-045.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 045.png" | relative_url}})
 
 A dialog should get up (To get this dialog, you need to go over the "Home" site, otherwise it will not be visible) where you can select either the build-in template or you should also see your own generated Template.
-![]({{"assets/img/posts/2021-10-30/Image-046.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 046.png" | relative_url}})
 
 Select your created Template and click on "Create page". Give your page a name like "test page".
 Before clicking on "Publish", we need to track the information. Open the "Developer Tools" of your Browser - by clicking F12, CTRL+SHIFT+I or "Settings - More Tools - Developer Tools" (in Edge Chromium) - switch to "Network" tab and set the filter to "savepage":
-![]({{"assets/img/posts/2021-10-30/Image-047.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 047.png" | relative_url}})
 
 When this is open and running, click on "Publish" on your SharePoint site. Within the network tab, you should see one entry "SavePage", Status 200 etc. Select this and go on the "Headers" section:
-![]({{"assets/img/posts/2021-10-30/Image-048.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 048.png" | relative_url}})
 
 In this section, scroll down to "Request Payload", this is the information we will need later in our flow. Click on "View source" and copy this code into some text editor like _[Visual Studio Code](https://code.visualstudio.com/)_. Afterwards you can close the Dev Tools again and go back to the flow.
-![]({{"assets/img/posts/2021-10-30/Image-049.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 049.png" | relative_url}})
 
 Congratulation, this was probably the most difficult part!
 
 ### Heading back to the flow
 
-![]({{"assets/img/posts/2021-10-30/Image-040.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 040.png" | relative_url}})
 
 In the first action of creating a new SharePoint page is to create the page or actually copy our template as a new name to our site. Use the "SharePoint - Send an HTTP request to SharePoint" action using the following parameters:
 
@@ -179,23 +179,23 @@ Of course, right now the content is just the same as before, so we need to modif
 
 1. Title:
 Within the "customMetadata" section, look for the title with the name of your sample page, that you created while tracking the network. In my case it is called "test page". Replace this by the name of your document (using a dynamic content):
-![]({{"assets/img/posts/2021-10-30/Image-051.png" | relative_url}})
-![]({{"assets/img/posts/2021-10-30/Image-052.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 051.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 052.png" | relative_url}})
 
 2. InnerHTML:
 The next thing we need to change is our content on this page. Look for "innerHTML:" within your code, you should see your text within a paragraph tag. Replace this with the variable (content of your word document):
-![]({{"assets/img/posts/2021-10-30/Image-053.png" | relative_url}})
-![]({{"assets/img/posts/2021-10-30/Image-054.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 053.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 054.png" | relative_url}})
 
 3. Title:
 Last change: at the bottom of your code, you will see some basic parameters. This is your header, that also shows the name, when you open the page. Change the "Title" to your document name:
-![]({{"assets/img/posts/2021-10-30/Image-055.png" | relative_url}})
-![]({{"assets/img/posts/2021-10-30/Image-056.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 055.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 056.png" | relative_url}})
 
 Now you can already test your flow:
-![]({{"assets/img/posts/2021-10-30/Image-059.png" | relative_url}})
-![]({{"assets/img/posts/2021-10-30/Image-061.png" | relative_url}})
-![]({{"assets/img/posts/2021-10-30/Image-060.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 059.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 061.png" | relative_url}})
+![]({{"assets/img/posts/2021-10-30/Image 060.png" | relative_url}})
 
 If you want to publish your page, you can also add another "SharePoint - Send an HTTP request to SharePoint" action using the following setup:
 
@@ -215,11 +215,11 @@ What improvements can we make to this? Here are a couple of thoughts:
 
 ## Resources that are very helpful:
 
-[Working with folders and files with REST | Microsoft Docs](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-folders-and-files-with-rest#working-with-files-by-using-rest)
-[Extract text from Word docx files with Power Automate (tachytelic.net)](https://www.tachytelic.net/2021/05/power-automate-extract-text-from-word-docx-file)
-[How to Parse XML in Power Automate using XPath — LazyAdmin](https://lazyadmin.nl/office-365/power-automate-using-xpath/)
-[Power Automate Fundamentals # 26: Usage of XML Fun... - Power Platform Community (microsoft.com)](https://powerusers.microsoft.com/t5/Power-Automate-Community-Blog/Power-Automate-Fundamentals-26-Usage-of-XML-Function-in-Power/ba-p/1330296)
-[SharePoint Basic Operations Using REST API - Code SharePoint](https://www.codesharepoint.com/rest-api/0/all-methods)
+- [Working with folders and files with REST | Microsoft Docs](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-folders-and-files-with-rest#working-with-files-by-using-rest)
+- [Extract text from Word docx files with Power Automate (tachytelic.net)](https://www.tachytelic.net/2021/05/power-automate-extract-text-from-word-docx-file)
+- [How to Parse XML in Power Automate using XPath — LazyAdmin](https://lazyadmin.nl/office-365/power-automate-using-xpath/)
+- [Power Automate Fundamentals # 26: Usage of XML Fun... - Power Platform Community (microsoft.com)](https://powerusers.microsoft.com/t5/Power-Automate-Community-Blog/Power-Automate-Fundamentals-26-Usage-of-XML-Function-in-Power/ba-p/1330296)
+- [SharePoint Basic Operations Using REST API - Code SharePoint](https://www.codesharepoint.com/rest-api/0/all-methods)
 
 
 Thanks for reading, I hope it will help you!
