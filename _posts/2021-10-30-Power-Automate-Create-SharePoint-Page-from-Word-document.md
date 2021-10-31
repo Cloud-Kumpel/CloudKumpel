@@ -155,6 +155,8 @@ Congratulation, this was probably the most difficult part!
 
 ![]({{"assets/img/posts/2021-10-30/Image 040.png" | relative_url}})
 
+### Create new Page from Template
+
 In the first action of creating a new SharePoint page is to create the page or actually copy our template as a new name to our site. Use the "SharePoint - Send an HTTP request to SharePoint" action using the following parameters:
 
 ```JSON
@@ -167,6 +169,8 @@ Headers:
 ```
 
 
+### Get file metadata using path
+
 This will create a new Page with the content from your template (as a copy) but with the new name, in my case the name of the document that was uploaded (the trigger). Next we need to get this page item id, you can just use the "SharePoint - Get file metadata using path" action for this:
 
 ```JSON
@@ -174,6 +178,8 @@ Site Address: <Your SharePoint Site Collection>
 File Path: /SitePages/@{triggerOutputs()?['body/{Name}']}.aspx
 ```
 
+
+### Check out new Page
 
 This will give us the ItemID of our page, that we just created. To edit the content on this page, we need to check it out first. Again we use the "SharePoint - Send an HTTP request to SharePoint" action:
 
@@ -186,6 +192,8 @@ Headers:
     Accept: Application/json;odata=verbose
 ```
 
+
+### Save page as draft
 
 After the page is checked out, we can modify it by adding the structure, we saved from the test page when we tracked the request payload from the Dev Tool section "Network". Again we use a "SharePoint - Send an HTTP request to SharePoint" action to modify our page and save it as a draft:
 
@@ -222,6 +230,9 @@ Now you can already test your flow:
 ![]({{"assets/img/posts/2021-10-30/Image 059.png" | relative_url}})
 ![]({{"assets/img/posts/2021-10-30/Image 061.png" | relative_url}})
 ![]({{"assets/img/posts/2021-10-30/Image 060.png" | relative_url}})
+
+
+### Publish Page
 
 If you want to publish your page, you can also add another "SharePoint - Send an HTTP request to SharePoint" action using the following setup:
 
