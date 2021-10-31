@@ -168,10 +168,11 @@ Headers:
     Accept: Application/json;odata=verbose
 ```
 
+This will create a new Page with the content from your template (as a copy) but with the new name, in my case the name of the document that was uploaded (the trigger). 
 
 ### Get file metadata using path
 
-This will create a new Page with the content from your template (as a copy) but with the new name, in my case the name of the document that was uploaded (the trigger). Next we need to get this page item id, you can just use the "SharePoint - Get file metadata using path" action for this:
+Next we need to get this page item id, you can just use the "SharePoint - Get file metadata using path" action for this:
 
 ```JSON
 Site Address: <Your SharePoint Site Collection>
