@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Power BI Azure AD Error
+title: Power BI Azure AD Error - Power BI App Permission required
 tags: [Azure AD,Power BI]
 author: MarvinBangert
 excerpt_separator: <!--more-->
@@ -9,6 +9,8 @@ excerpt_separator: <!--more-->
 Hey folks,
 
 today I came across a problem on a customer site within Power BI when trying to update an App and giving access to other users within a workspace. I want to share the solution with you, hope it will help you.
+
+<!--more-->
 
 ## The error messages
 
