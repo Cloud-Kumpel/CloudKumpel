@@ -31,6 +31,7 @@ This symptoms are sideeffects from the disabling a company setting "Users Permis
 Set-MsolCompanySettings -UsersPermissionToReadOtherUsersEnabled $false
 ```
 
+
 By default this is set to true, if you want to change it, please run the following:
 
 ```PowerShell
@@ -44,12 +45,16 @@ Connect-MsolService
 Set-MsolCompanySettings -UsersPermissionToReadOtherUsersEnabled $true
 ```
 
+
+It took about 15 minutes to effect on my Test-Tenant.
+
+
 ## More details
 
 Checking this command within the [<u>Microsoft Docs</u>](https://docs.microsoft.com/en-us/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0#parameters), we get the following information for this parameter:
 
->"Indicates whether to allow users to view the profile info of other users in their company. This setting is applied company-wide.
-> Set to $False to disable users' ability to use the Azure AD module for Windows PowerShell to access user information for their organization."
+> Indicates whether to allow users to view the profile info of other users in their company. This setting is applied company-wide.
+> Set to $False to disable users' ability to use the Azure AD module for Windows PowerShell to access user information for their organization.
 
 So the basic idea with this parameter is to disable the ability of users accessing other users details like phone number, address, etc. using Azure AD PowerShell or the Microsoft Graph API Endpoint. As a side effect, this also effects to Power BI and (as far as I tested it) Microsoft Planner to disable the ability to assign tasks to users.
 
