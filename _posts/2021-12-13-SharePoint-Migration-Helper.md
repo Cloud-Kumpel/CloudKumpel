@@ -12,7 +12,7 @@ already a while ago I came up with an idea and solution to support you while mig
 
 <!--more-->
 
-## Getting things ready
+## Basic idea
 
 So the basic idea is that you can manage the migration from a SharePoint Online list, to plan and monitor the status and making the migration easier. In total there will be two lists and the default documents library. Within the lists you can plan the time a folder will get migrated, generate the CSV file you need to import into SharePoint Migration Manager and update the status after the migration is completed.
 
