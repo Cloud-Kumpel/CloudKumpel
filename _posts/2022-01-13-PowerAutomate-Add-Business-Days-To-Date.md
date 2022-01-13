@@ -41,7 +41,7 @@ addDays(
 ```
 
 So what's happending here? Other than in Power Apps, there are two things missing. Using "dayOfWeek()" only allows us to add a timestamp and not a date and start of the week.
-Instead of defining to start have the first day on Monday, we always start on a "Sunday". For calculation this means:
+Instead of defining the first day to Monday in our formula, we always start on a "Sunday" and are not able to change this. For calculation this means:
 
 | Day | Sunday Start | Monday Start |
 |-----|--------------|--------------|
