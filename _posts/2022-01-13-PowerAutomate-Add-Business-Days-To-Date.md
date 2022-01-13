@@ -57,7 +57,7 @@ Instead of defining the first day to Monday in our formula, we always start on a
 
 To still get the right calculation, we subtract 1 from our date in the beginning. The second formula missing is the round(), but we are kinda lucky and Power Automate automatically rounds down the value for us, so we don't need anything to change anything here.
 
-I just tested it with the same dates as Matthew did in his blogpost and I get the same results, but did fully tested it in every scenario (like leap year or within February) so please report if you notice any problems.
+I just tested it with the same dates as Matthew did in his blogpost and I get the same results, but did not fully test it in every scenario (like leap year or within February) so please report if you notice any problems.
 
 Thanks for reading, I hope it will help you!
 
