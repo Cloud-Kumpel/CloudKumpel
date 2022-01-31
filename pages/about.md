@@ -57,6 +57,15 @@ He enjoys having conversation and exchange with people about different kind of t
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
+</a>{% assign brand = 'meetup' %}{% assign icon = "fab fa-" | append: brand %}
+<a href="https://www.meetup.com/de-DE/Koln-Business-Intelligence-Meetup/"
+    title="Power BI User Group Cologne"
+    target="_blank"
+    rel="me">
+    <span class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+    </span>
 </a>
 
 ## Adrian Ritter
