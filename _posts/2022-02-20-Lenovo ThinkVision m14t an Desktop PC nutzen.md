@@ -6,9 +6,9 @@ author: get-adr
 excerpt_separator: <!--more-->
 ---
 Heute von mir mal ein wahrscheinlich etwas nieschiger Post :)
-Seit längerem habe ich mit dem Gedanken gespielt einen mobilen Monitor anzuschaffen, sozusagen als Dua-Display im mobile Office.
+Seit längerem habe ich mit dem Gedanken gespielt einen mobilen Monitor anzuschaffen, sozusagen als Dual-Display im mobile Office.
 Mittlerweile findet man eine breite Auswahl in einer eben so breiten Preisspanne. 
-Aufgrund des Touchdisplays mit der gleichen Digitizer Technologie wie bei meinem Notebook und dem Anschluss über ein USB-C Kabel fiehl die Wahl auf das ThinkVision m14t Display.
+Aufgrund des Touchdisplays mit der gleichen Digitizer Technologie wie bei meinem Notebook und dem Anschluss über ein USB-C Kabel fiel die Wahl auf das ThinkVision m14t Display.
 Würde es in dem Artikel nur um den Betrieb am Notebook gehen, könnte der Artikel hier schon zu ende sein. Kurz gesagt es funktioniert einfach.
 Nun dachte ich mir aber, es wäre ja schön das Display auch an meinen Desktop PC anschließen zu können.
 Worauf es dabei ankommt möchte ich hier kurz festhalten.
