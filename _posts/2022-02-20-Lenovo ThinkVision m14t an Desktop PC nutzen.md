@@ -18,7 +18,7 @@ Das Lenovo Display verwendet wie schon geschrieben UBS-C als einzigen Anschluss.
 Was bei den aktuellen Notebooks kein Problem darstellt, ist bei Desktop PCs zwar als Anschluss mittlerweile ebenfalls selbstverständlich, doch wie so oft steckt die Tücke im Detail. Neben USB Daten werden im Fall des ThinkVision Displays eben auch Display Port Signal und Strom übertragen.
 Da hörte es bei meinem Desktop auch schon auf, also musste eine Lösung her, die die folgenden Funktionen nachrüstet:
 - USB-C Anschluss
-- Unterstützung für [dp Alt Mode (DPalt)](https://www.club-3d.com/de/technology/15/usb_c_over_alt_mode/)
+- Unterstützung für [USB-C dp Alt Mode](https://www.club-3d.com/de/technology/15/usb_c_over_alt_mode/)
 - 10W Power Delivery, damit kein zusätzliches Netzteil für das Display nötig ist.
 
 ## Die technische Lösung
@@ -26,7 +26,7 @@ Also erst mal etwas recherchiert, welche Optionen es da überhaupt gibt. Schnell
 
 Eine ziemlich universelle Lösung scheint die PCIe Karte UPD2018 von Sunix zu sein. Sie Liefert USB-C 3.1 mit dpAlt Mode. Das DisplayPort Signal wird hier über ein kurzes DP Kabel direkt von der Grafikkarte eingespeist. Ein Blick in das Datenblatt zeigte allerdings das nur 7,5W Leistung über USB-C abgegeben werden können. Also würde das ThinkVision Display ein zusätzliches Stromkabel benötigen, was ich gerne vermeiden wollte.
 
-Bei der weiteren Suche bin ich darauf gestoßen, dass es für verschiedene Mainboards Thunderbolt Karten zum Nachrüsten gibt. Glücklicherweise auch für mein schon etwas älteres Gigabyte Board. Die passende Karte ist [Gigabyte GS Titan Ridge 2.0](https://www.gigabyte.com/de/Motherboard/GC-TITAN-RIDGE-rev-20). Im Gegensatz zur Sunix Karte unterstützt die Karte Power Delivery 3.0 und somit bis zu 100W Leistung über USB-C. Das DisplayPort Signal wird ebenfalls von der Grafikkarte eingespeist, hier über ein Mini Display Port Anschluss.
+Bei der weiteren Suche bin ich darauf gestoßen, dass es für verschiedene Mainboards Thunderbolt Karten zum Nachrüsten gibt. Glücklicherweise auch für mein schon etwas älteres Gigabyte Board. Die passende Karte ist [Gigabyte GC Titan Ridge 2.0](https://www.gigabyte.com/de/Motherboard/GC-TITAN-RIDGE-rev-20). Im Gegensatz zur Sunix Karte unterstützt die Karte Power Delivery 3.0 und somit bis zu 100W Leistung über USB-C. Das DisplayPort Signal wird ebenfalls von der Grafikkarte eingespeist, hier über ein Mini Display Port Anschluss.
 
 Somit hatte ich meine technische Lösung gefunden.
 
