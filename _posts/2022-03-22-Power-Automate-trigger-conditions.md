@@ -27,7 +27,8 @@ However, this means that our flow will always be triggered as soon as a new item
 | Power Automate per Flow plan, Power Virtual Agents base offer, and Power Virtual Agents add-on pack | 250.000 |
 
 (Source: [https://docs.microsoft.com/de-de/power-platform/admin/api-request-limits-allocations](https://docs.microsoft.com/de-de/power-platform/admin/api-request-limits-allocations#microsoft-power-platform-requests-allocations-based-on-licenses) Date: 22 March 2020; Please refer to the Docs article for restrictions in the licenses )
-(More Information: [What counts as Power Platform request](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types#what-counts-as-power-platform-request)
+
+(More Information: [What counts as Power Platform request](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types#what-counts-as-power-platform-request) )
 
 ### What is a Microsoft Power Platform request?
 
