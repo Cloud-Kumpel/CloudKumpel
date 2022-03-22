@@ -39,7 +39,7 @@ Requirements consist of different actions that a user performs for different pro
 - Power Virtual Agents - API requests (or calls) to Power Automate flows from within a chatbot conversation.
 - Dataverse – all create, read, update, and delete (CRUD), assign, and share operations including user-driven and internal system requests required to complete CRUD transactions, and special operations like share or assign. These can be from any client or application (including Dynamics 365) and using any endpoint (SOAP or REST). These include, but are not limited to, plug-ins, classic workflows, and custom controls making the earlier-mentioned operations.
 
-(Source: [What is a Microsoft Power Platform request](https://docs.microsoft.com/en-us/power-platform/admin/api-request-limits-allocations#what-is-a-microsoft-power-platform-request) Stand: 22 March 2020)
+(Source: [What is a Microsoft Power Platform request](https://docs.microsoft.com/en-us/power-platform/admin/api-request-limits-allocations#what-is-a-microsoft-power-platform-request) Date: 22 March 2020)
 
 So we keep running (unnecessary) requests, even though our element isn't even complete yet.
 
