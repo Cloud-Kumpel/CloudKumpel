@@ -26,7 +26,7 @@ However, this means that our flow will always be triggered as soon as a new item
 | Power Apps pay-as-you-go-plan, and paid licensed users for Power Apps per App, Microsoft 365 apps with Power Platform access, and Dynamics 365 Team Member | 6.000 |
 | Power Automate per Flow plan, Power Virtual Agents base offer, and Power Virtual Agents add-on pack | 250.000 |
 
-(Source: [https://docs.microsoft.com/de-de/power-platform/admin/api-request-limits-allocations](https://docs.microsoft.com/de-de/power-platform/admin/api-request-limits-allocations#microsoft-power-platform-requests-allocations-based-on-licenses) Date: 22 March 2020; Please refer to the Docs article for restrictions in the licenses )
+(Source: [https://docs.microsoft.com/de-de/power-platform/admin/api-request-limits-allocations](https://docs.microsoft.com/de-de/power-platform/admin/api-request-limits-allocations#microsoft-power-platform-requests-allocations-based-on-licenses) Date: March 22, 2022; Please refer to the Docs article for restrictions in the licenses )
 
 (More Information: [What counts as Power Platform request](https://docs.microsoft.com/en-us/power-platform/admin/power-automate-licensing/types#what-counts-as-power-platform-request) )
 
@@ -39,7 +39,7 @@ Requirements consist of different actions that a user performs for different pro
 - Power Virtual Agents - API requests (or calls) to Power Automate flows from within a chatbot conversation.
 - Dataverse – all create, read, update, and delete (CRUD), assign, and share operations including user-driven and internal system requests required to complete CRUD transactions, and special operations like share or assign. These can be from any client or application (including Dynamics 365) and using any endpoint (SOAP or REST). These include, but are not limited to, plug-ins, classic workflows, and custom controls making the earlier-mentioned operations.
 
-(Source: [What is a Microsoft Power Platform request](https://docs.microsoft.com/en-us/power-platform/admin/api-request-limits-allocations#what-is-a-microsoft-power-platform-request) Date: 22 March 2020)
+(Source: [What is a Microsoft Power Platform request](https://docs.microsoft.com/en-us/power-platform/admin/api-request-limits-allocations#what-is-a-microsoft-power-platform-request) Date: March 22, 2022)
 
 So we keep running (unnecessary) requests, even though our element isn't even complete yet.
 
