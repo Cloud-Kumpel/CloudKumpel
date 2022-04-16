@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Power Automate: Turn SharePoint values to columns"
-date: "2022-04-10"
+date: "2022-04-16"
 tags: [Power Automate,HowTo,SharePoint,Excel]
 feature-img: "/assets/img/header%20image.png"
 author: MarvinBangert
