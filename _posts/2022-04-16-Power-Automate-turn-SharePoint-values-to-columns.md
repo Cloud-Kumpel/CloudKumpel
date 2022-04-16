@@ -34,7 +34,7 @@ Select will get all elements from the "From" array into a new array. To make thi
 union(body('Select'),body('Select'))
 ```
 
-Union returns a single array or object with all the elements that are in either array or object passed to this function. The parameters for the function can either be a set of objects or a set of arrays (not a mix of both). If there are two objects with the same name in the final output, the last object with that name appears in the final object. We are union the array we receive from "Select" with itself, which will return us a distinct array.
+Union returns a single array or object with all the elements that are in either array or object passed to this function. The parameters for the function can either be a set of objects or a set of arrays (not a mix of both). If there are two objects with the same name in the final output, the last object with that name appears in the final object. We union the array we receive from "Select" with itself, which will return us a distinct array.
 
 This is our basis, we can now go on and create SharePoint columns, Excel table, Planner buckets or anything else.
 
