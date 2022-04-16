@@ -10,13 +10,11 @@ excerpt_separator: <!--more-->
 
 Hey folks,
 
-today we will learn how to turn SharePoint values within a SharePoint column into columns, so if you would maybe need this in other situations, like filling another SharePoint list or excel file. In this case we have a SharePoint list with a title (Department) and some numbers we need to sum up. Of course, you can also use SharePoint to group by title and sum the numbers, but lets check out how to do it automatically with Power Automate.
-
-<!--more-->
-
-This is just a simple example of a SharePoint list with some information (could be single line of text or choice, choice would be better to make sure your values are always written the same).
+today we will learn how to turn SharePoint values into columns. This is just a simple example of a SharePoint list with some information (could be single line of text or choice, choice would be better to make sure your values are always written the same).
 
 ![]({{"assets/img/posts/2022-04-10/2022-04-10-SharePointListOverview.png" | relative_url}})
+
+<!--more-->
 
 Switch over to Power Automate. Choose a trigger based on your need, in this case we want to trigger the flow manually, so we are using the "Manually trigger a flow" trigger.
 
