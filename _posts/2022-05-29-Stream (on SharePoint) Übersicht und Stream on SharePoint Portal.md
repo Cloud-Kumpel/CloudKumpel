@@ -7,7 +7,7 @@ feature-img: "/assets/img/header%20image.png"
 author: get-adr
 excerpt_separator: <!--more-->
 ---
-Seit Microsoft 2021 angekündigt hat Microsoft Stream (classic) nicht weiter zu entwickeln und zugunsten von SharePoint Online / OneDrive for Business einzustellen ist einiges geschehen. Die offensichtlichste Änderung, zumindest in der Dokumentation, ist die Unterscheidung in Stream Classic und Stream on SharePoint.
+Seit Microsoft 2021 angekündigt hat Microsoft Stream (Classic) nicht weiter zu entwickeln und zugunsten von SharePoint Online / OneDrive for Business einzustellen ist einiges geschehen. Die offensichtlichste Änderung, zumindest in der Dokumentation, ist die Unterscheidung in Stream Classic und Stream on SharePoint.
 In gewisser Weise ist es also ein Rolle rückwärts, von Office 365 Video über Stream zurück zu Stream on SharePoint. 
 
 Allerding nicht ganz, denn der Ansatz ist ein anderer als noch zu Office 365 Video Zeiten. Zukünftig sollen Videos in SharePoint Online und OneDrive for Business ähnlich behandelt werden wie Office Dokumente. Also deutlich besser integriert als bisher.
