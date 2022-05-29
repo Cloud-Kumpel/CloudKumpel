@@ -56,12 +56,12 @@ Aktuell ist das Stream on SharePoint Portal nur über die URL erreichbar, Micros
 ![]({{"assets/img/posts/2022-05-29/New-Stream-App-Tile-Options.png" | relative_url}})
 
 Es werden drei Optionen zur Auswahl stehen:
-Automatisch
-Stream (on SharePoint)
-Stream (Classic)
+- Automatisch
+- Stream (on SharePoint)
+- Stream (Classic)
 
 Wählt man hier automatisch, entscheidet Office 365 in welches Portal die Kachel führen soll.
-Aus meiner sicht auf jeden Fall eine willkommene Option administrativ zu steuern welche Stream Funktion genutzt werden soll.
+Aus meiner Sicht auf jeden Fall eine willkommene Option administrativ zu steuern welche Stream Funktion genutzt werden soll.
 
 Im nächsten Beitrag wird es um die Video spezifischen Funktionen in SharePoint Bibliotheken gehen. Auch im Vergleich zu den bekannten Funktionen von Stream (Classic).
 
