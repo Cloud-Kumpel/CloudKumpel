@@ -2,7 +2,7 @@
 layout: post
 title: "Stream (on SharePoint) Übersicht und Stream on SharePoint Portal"
 date: "2022-05-29"
-tags: [Stream,SharePoint,German,Video]
+tags: [Stream,SharePoint,Deutsch,Video]
 feature-img: "/assets/img/header%20image.png"
 author: get-adr
 excerpt_separator: <!--more-->
