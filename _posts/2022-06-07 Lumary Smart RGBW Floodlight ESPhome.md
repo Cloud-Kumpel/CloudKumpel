@@ -2,7 +2,7 @@
 layout: post
 title: "Using a Lumary Smart RGBW Flood Light with ESPHome"
 date: "2022-06-07"
-tags: [Smart home,ESPHome,Tasmota,ESP8266,hacking]
+tags: [Smart home,ESPHome,Tasmota,ESP8266,hacking,homeassistant]
 feature-img: "/assets/img/header%20image.png"
 author: get-adr
 excerpt_separator: <!--more-->
