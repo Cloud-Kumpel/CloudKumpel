@@ -11,7 +11,7 @@ Hey smart home folks!
 
 While looking around for a smart rgbw outdoor flood light, compatible with home assistant and no dependencies to a public cloud I came across this information regarding a not Tasmota compatible device:
 
-https://templates.blakadder.com/unsupported/lumary_floodlight.html
+[https://templates.blakadder.com/unsupported/lumary_floodlight.html](https://templates.blakadder.com/unsupported/lumary_floodlight.html)
 
 
 As stated in the article, the built-in chip ([Tuya CB2S](https://developer.tuya.com/en/docs/iot/cb2s-module-datasheet?id=Kafgfsa2aaypq) ) isn't compatible but it should be easy enough to replace it.
