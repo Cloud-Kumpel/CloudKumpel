@@ -117,8 +117,8 @@ light:
 ````
 The following links helped me to build the config:
 
-ESPHome PWM Output: https://esphome.io/components/output/esp8266_pwm.html</br>
-ESPHome RGBW Light: https://esphome.io/components/light/rgbw.html
+ESPHome PWM Output: [https://esphome.io/components/output/esp8266_pwm.html](https://esphome.io/components/output/esp8266_pwm.html)</br>
+ESPHome RGBW Light: [https://esphome.io/components/light/rgbw.html](https://esphome.io/components/light/rgbw.html)
 
 After flashing the ESP-02S it was time to desolder the Tuya chip and replace it with the ESP-02S.
 
