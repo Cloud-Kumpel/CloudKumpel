@@ -176,7 +176,7 @@ I added a new page and added some more visuals:
 - 2x Matrix for "Kreis" and "Group" and content from table "Bezirksliga22_23_Test" to see the Kilometers distance of each club to the selected club within the slicer
 - 2x Maps for "Kreis" and "Group" to dive into more details and maybe changing things.
 
-You can see the final result here: https://app.powerbi.com/view?r=eyJrIjoiNzk0NDBkYjItMDA5Yy00YzZiLTk5MjEtNTcyMWE4YzMzNWUxIiwidCI6IjQ1MGJjZTEzLTgzNGQtNGI1Mi04OWRjLTIzYjBiNjk0OGQ0OSIsImMiOjl9
+You can see the final result here: [https://app.powerbi.com/view?r=eyJrIjoiNzk0NDBkYjItMDA5Yy00YzZiLTk5MjEtNTcyMWE4YzMzNWUxIiwidCI6IjQ1MGJjZTEzLTgzNGQtNGI1Mi04OWRjLTIzYjBiNjk0OGQ0OSIsImMiOjl9](https://app.powerbi.com/view?r=eyJrIjoiNzk0NDBkYjItMDA5Yy00YzZiLTk5MjEtNTcyMWE4YzMzNWUxIiwidCI6IjQ1MGJjZTEzLTgzNGQtNGI1Mi04OWRjLTIzYjBiNjk0OGQ0OSIsImMiOjl9)
 
 After doing all of this, I send an email to FuPa.net with my suggestions. Let's see how it will end. It was a really nice practice to work with Power BI, Power Query, APIs in Power BI, geocoordinates and Power Automate Desktop to get some more insights what you can use the Power Platform for :)
 
