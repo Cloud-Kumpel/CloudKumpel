@@ -18,14 +18,14 @@ if you know me, you probably know I am very interested into playing, watching or
 First lets get a short overview about the German football league system. As in other countries too, Football is the most popular sport in Germany and has a huge community. The German Football Association (German: "Deutscher Fußball-Bund or DFB") has over 6.6 million members organized in over 31,000 football clubs. The clubs are part of a league system, with the "Bundesliga", "2. Bundesliga" and "3. Liga" on top as the professional leagues. Below the "3. Liga" we have the amateurs leagues. By winning the league at the end of a season, you can get to the next highest league and even get from an amateurs club to a professional club playing in the highest league or even in international competitions.
 
 The order is:
-    "Bundesliga"
-    "2. Bundesliga"
-    "3. Liga"
-    "Regionalliga" (engl: regional league)
-    "Oberliga" (engl: top league)
-    "Landesliga" (engl: state league)
-    "Bezirksliga" (engl: district league)
-    "Kreisliga (A, B., C, and D)" (engl: county/city league A-D)
+- "Bundesliga"
+- "2. Bundesliga"
+- "3. Liga"
+- "Regionalliga" (engl: regional league)
+- "Oberliga" (engl: top league)
+- "Landesliga" (engl: state league)
+- "Bezirksliga" (engl: district league)
+- "Kreisliga (A, B., C, and D)" (engl: county/city league A-D)
 
 Some associations even have more leagues, because they have many more clubs and need another league somewhere between "Oberliga" and "Bezirksliga". If you want to learn more, please check out this wikipedia post [Football in Germany](https://en.wikipedia.org/wiki/Football_in_Germany).
 
