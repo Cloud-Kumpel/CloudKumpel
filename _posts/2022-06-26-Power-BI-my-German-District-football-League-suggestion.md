@@ -10,7 +10,7 @@ excerpt_separator: <!--more-->
 
 Hey folks,
 
-if you know me, you probably know I am very interested into playing, watching or talking about football (or "soccer"). After decades my home club finaly reached again the seventh german district football league (german: "Bezirksliga") and a German community platform and news publisher "[FuPa.net](https://www.fupa.net/region/niederrhein)" about amateurs football was looking for suggestions how to split the league. So I decided to make my suggestion and building a Power BI report to help me and also make it visual. Today we will learn about the German football leagues, Power BI, Geocoodinates and how to calculate distances and how to use custom functions and API calls in Power BI and to get some webbrowser content using Power Automate Desktop.
+if you know me, you probably know I am very interested into playing, watching or talking about football (or "soccer"). After decades my home club finaly reached again the seventh german district football league (german: "Bezirksliga") and a German community platform and news publisher "[FuPa.net](https://www.fupa.net/region/niederrhein)" about amateurs football was looking for suggestions how to split the league. So I decided to make my suggestion and building a Power BI report to help me and also make it visual. Today we will learn about the German football leagues, Power BI, Geocoodinates and how to calculate distances, Power BI Bookmarks, how to use custom functions and make API calls in Power BI and to get some webbrowser content using Power Automate Desktop.
 
 <!--more-->
 
