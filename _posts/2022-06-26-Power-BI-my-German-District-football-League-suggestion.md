@@ -89,6 +89,10 @@ When you are done, open the "Bookmarks" pane from the "View" menu tab.
 
 When you are done, your view should change by clicking on the bookmarks. To add a button into your report, click on "Button - Navigator - Bookmark navigator" within the "Insert" menu tab. You should see a button with the names of your both Bookmarks.
 
+![]({{"assets/img/posts/2022-06-26/Overview.png" | relative_url}})
+
+![]({{"assets/img/posts/2022-06-26/Overview2.png" | relative_url}})
+
 Also check out this post if you need help [How to show & Hide visuals using Power BI Bookmarks](https://www.overbeeps.com/show-hide-visuals-power-bi-bookmarks-button/)
 
 # Power BI API call and calculating geocoordinate distance
