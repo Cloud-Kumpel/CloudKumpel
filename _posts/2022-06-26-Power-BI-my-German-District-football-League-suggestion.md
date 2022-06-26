@@ -41,7 +41,7 @@ First, I needed to get some data that I can analyze and visualize. I wanted to h
 
 Because the data within the list of FuPa had some other content, I didn't needed, I just copied the whole content into an empty text file within Visual Studio Code, removed all unnecessary information manually to have a proper list with only the 112 clubs. Because I wanted to have them as a CSV, I used the find and replace function of VS Code to find all " (" and replace it with a semicolon ";" and find all ")" and replace it with nothing. I saved it as a CSV file and needed to look how to get the addresses.
 
-Because I couldn't find a proper API, I used Power Automate Desktop to automate getting some data. First, I only wanted to extract the postal code and city, because I was hoping this is already enough. Within another service (www.fussball.de)[https://www.fussball.de/] I found a good search results site which gives me the postal code and city of the club:
+Because I couldn't find a proper API, I used Power Automate Desktop to automate getting some data. First, I only wanted to extract the postal code and city, because I was hoping this is already enough. Within another service [www.fussball.de](https://www.fussball.de/) I found a good search results site which gives me the postal code and city of the club:
 
 ![]({{"assets/img/posts/2022-06-26/Fussball_de_Search_Results.png" | relative_url}})
 
