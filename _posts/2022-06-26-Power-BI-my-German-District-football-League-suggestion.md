@@ -27,7 +27,7 @@ The order is:
 - "Bezirksliga" (engl: district league)
 - "Kreisliga (A, B., C, and D)" (engl: county/city league A-D)
 
-Some associations even have more leagues, because they have many more clubs and need another league somewhere between "Oberliga" and "Bezirksliga". If you want to learn more, please check out this wikipedia post [Football in Germany](https://en.wikipedia.org/wiki/Football_in_Germany).
+Some associations even have more leagues, because they have many more clubs and need another league somewhere between "Oberliga" and "Bezirksliga". If you want to learn more, please check out this wikipedia post [German football league system](https://en.wikipedia.org/wiki/German_football_league_system).
 
 As you can see, there are a lot of clubs, a lot of leagues and a lot of work, if you try to find a good way how to split each league properly, especially within the lower leagues. At the end of this season 2021/2022 when all clubs for next years district league at "Fußballverband Niederrhein or FVN" (engl: "Football association Lowerrhine") were named and qualified, [FuPa.net](https://www.fupa.net/region/niederrhein) posted a news article asking [how to split the district league](https://www.fupa.net/news/ruwa-dellwig-alle-bezirksliga-teilnehmer-stehen-fest-wie-wir-2870949) (Article is in German). In total there are 112 clubs all around the the region:
 
