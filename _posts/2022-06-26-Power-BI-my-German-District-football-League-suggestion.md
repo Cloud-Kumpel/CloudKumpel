@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Power BI: Divison wanted - my German District football League suggestion"
+title: "Power BI: Divison wanted - my German 'Bezirksliga' suggestion"
 date: "2022-06-26"
 tags: [Power BI,HowTo,Football,Geocoordinates,API,Power Automate Desktop]
 feature-img: "/assets/img/posts/2022-06-26/Football.jpg"
@@ -10,26 +10,26 @@ excerpt_separator: <!--more-->
 
 Hey folks,
 
-if you know me, you probably know I am very interested into playing, watching or talking about football (or "soccer"). After decades my home club finaly reached again the seventh german district football league (german: "Bezirksliga") and a German community platform and news publisher "[FuPa.net](https://www.fupa.net/region/niederrhein)" about amateurs football was looking for suggestions how to split the league. So I decided to make my suggestion and building a Power BI report to help me and also make it visual. Today we will learn about the German football leagues, Power BI, Geocoodinates and how to calculate distances, Power BI Bookmarks, how to use custom functions and make API calls in Power BI and to get some webbrowser content using Power Automate Desktop.
+if you know me, you probably know I am very interested into playing, watching or talking about football (or "soccer"). After decades my home club finaly reached again the seventh German 'Bezirksliga' and a German community platform and news publisher "[FuPa.net](https://www.fupa.net/region/niederrhein)" about amateurs football was looking for suggestions how to split the league. So I decided to make my suggestion and building a Power BI report to help me and also make it visual. Today we will learn about the German football leagues, Power BI, Geocoodinates and how to calculate distances, Power BI Bookmarks, how to use custom functions and make API calls in Power BI and to get some webbrowser content using Power Automate Desktop.
 
 <!--more-->
 
 # The German football league system
-First lets get a short overview about the German football league system. As in other countries too, Football is the most popular sport in Germany and has a huge community. The German Football Association (German: "Deutscher Fußball-Bund or DFB") has over 6.6 million members organized in over 31,000 football clubs. The clubs are part of a league system, with the "Bundesliga", "2. Bundesliga" and "3. Liga" on top as the professional leagues. Below the "3. Liga" we have the amateurs leagues. By winning the league at the end of a season, you can get to the next highest league and even get from an amateurs club to a professional club playing in the highest league or even in international competitions.
+First lets get a short overview about the German football league system. As in other countries too, Football is the most popular sport in Germany and has a huge community. The German Football Association (German: "Deutscher Fußball-Bund or DFB") has over 6.6 million members organized in over 31,000 football clubs. The clubs are part of a league system, with the "Bundesliga", "2. Bundesliga" and "3. Liga" on top as the professional leagues. Below the "3. Liga" we have the amateurs leagues. By winning the league at the end of a season, you can get to the next higher league and even get from an amateurs club to a professional club playing in the highest league or even in international competitions.
 
 The order is:
 - "Bundesliga"
 - "2. Bundesliga"
 - "3. Liga"
-- "Regionalliga" (engl: regional league)
-- "Oberliga" (engl: top league)
-- "Landesliga" (engl: state league)
-- "Bezirksliga" (engl: district league)
-- "Kreisliga (A, B., C, and D)" (engl: county/city league A-D)
+- "Regionalliga"
+- "Oberliga"
+- "Landesliga"
+- "Bezirksliga"
+- "Kreisliga (A, B, C, and D)"
 
 Some associations even have more leagues, because they have many more clubs and need another league somewhere between "Oberliga" and "Bezirksliga". If you want to learn more, please check out this wikipedia post [German football league system](https://en.wikipedia.org/wiki/German_football_league_system).
 
-As you can see, there are a lot of clubs, a lot of leagues and a lot of work, if you try to find a good way how to split each league properly, especially within the lower leagues. At the end of this season 2021/2022 when all clubs for next years district league at "Fußballverband Niederrhein or FVN" (engl: "Football association Lowerrhine") were named and qualified, [FuPa.net](https://www.fupa.net/region/niederrhein) posted a news article asking [how to split the district league](https://www.fupa.net/news/ruwa-dellwig-alle-bezirksliga-teilnehmer-stehen-fest-wie-wir-2870949) (Article is in German). In total there are 112 clubs all around the the region:
+As you can see, there are a lot of clubs, a lot of leagues and a lot of work, if you try to find a good way how to split each league properly, especially within the lower leagues. At the end of this season 2021/2022 when all clubs for next years 'Bezirksliga' at "Fußballverband Niederrhein or FVN" (engl: "Lower Rhine Football Association") were named and qualified, [FuPa.net](https://www.fupa.net/region/niederrhein) posted a news article asking [how to split the Bezirksliga](https://www.fupa.net/news/ruwa-dellwig-alle-bezirksliga-teilnehmer-stehen-fest-wie-wir-2870949) (Article is in German). In total there are 112 clubs all around the the region:
 
 ![]({{"assets/img/posts/2022-06-26/Map_By_County.png" | relative_url}})
 
