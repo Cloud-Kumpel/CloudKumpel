@@ -3,7 +3,7 @@ layout: post
 title: "Bookings with me (preview)"
 date: "2022-07-23"
 tags: [Bookings with me,Bookings,Outlook,Deutsch]
-feature-img: "/assets/img/posts/2022-07-23/header.png"
+feature-img: "/assets/img/posts/2022-07-23/header.webp"
 author: get-adr
 excerpt_separator: <!--more-->
 ---
