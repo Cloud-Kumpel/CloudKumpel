@@ -102,11 +102,9 @@ Nach Auswahl des Datums und der Zeit kann der "Weiter" Button geklickt werden un
 
 Mit Klick auf "E-Mail-Prüfcode" wird ein Prüfcode an die angegebene E-Mail Adresse gesendet. Im folgenden Dialog muss dieser Code zur Kontrolle eingegeben werde.
 
-![]({{"assets/img/posts/2022-07-23/16-GastBuchung.webp" | relative_url}})
+![]({{"assets/img/posts/2022-07-23/17-GastPruefcodeEingabe.webp" | relative_url}})
 
 Mit Klick auf Zeitplan wird der Termin geplant, ohne weitere Interaktion der Person, die den Termin auf seiner "Bookings with me" Seite angeboten hat.
-
-![]({{"assets/img/posts/2022-07-23/17-GastPruefcodeEingabe.webp" | relative_url}})
 
 ### Mit M365 Konto anmelden und fortfahren
 Setzt man die Terminbuchung als angemeldeter Benutzer fort, hat dies den Vorteil, dass die eigene Verfügbarkeit bei der Auswahl des Termin angezeigt wird:
