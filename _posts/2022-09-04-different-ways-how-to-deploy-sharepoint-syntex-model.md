@@ -33,7 +33,7 @@ SharePoint Syntex is a Microsoft 365 service that uses advanced AI and machine t
 ## SharePoint Syntex Content Center
 
 You can manually deploy SharePoint Syntex models to a library in two different ways. First, you can select a site and library right from the Content Center, after classifying your files and training the extractors. You will see a section "Where the model is applied" and you can easily select multiple libraries to deploy your model to.
-![](assets/img/posts/2022-09-04/SharePoint_Syntex_ContentCenterDeployment.png)
+![]("assets/img/posts/2022-09-04/SharePoint_Syntex_ContentCenterDeployment.png")
 
 
 ## SharePoint library
