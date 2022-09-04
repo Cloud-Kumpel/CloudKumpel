@@ -86,14 +86,27 @@ First we need to collect some information we need later:
 **Get target site url + server relative urls**
 
 You can use the following syntax to get the site url or just copy it from your browser address bar, like:
+
 "https://contoso.sharepoint.com/sites/SiteName"
+
 from this you can already derive the server relative url:
+
 "/sites/SiteName"
+
 Same works for the Target library server relative url:
+
 "/sites/SiteName/Shared%20Documents"
 
 **Get content center url + server relative url**
-If you don't know the Content Center url, as an administrator you can open the Microsoft 365 admin center, select "Settings" - "Org settings" - "SharePoint Syntex" - "Document understanding" - "Content center address" and click on the link to open the content center. Otherwise, just open a SharePoint site library, click on "Automate" - "View models", select the model you want to apply and click on "View model details" - "Manage model" to get to the content center.
+If you don't know the Content Center url, as an administrator you can open the Microsoft 365 admin center, select 
+
+"Settings" - "Org settings" - "SharePoint Syntex" - "Document understanding" - "Content center address"
+
+and click on the link to open the content center. Otherwise, just open a SharePoint site library, click on 
+
+"Automate" - "View models",
+
+select the model you want to apply and click on "View model details" - "Manage model" to get to the content center.
 Just copy the address from the browser address bar (see image below). As above, you can derive the server relative url from the url.
 
 **Get unique model id**
