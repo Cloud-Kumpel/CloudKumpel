@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Different ways how to deploy SharePoint Syntex model
 description: Learn how to manually and automatically deploy SharePoint Syntex Model to a
   SharePoint library
@@ -7,15 +8,12 @@ tags:
   - Power Automate
   - SharePoint Syntex
   - Power Platform
-categories: ""
 keywords:
   - Power Automate
   - Power Platform
   - SharePoint Syntex
 slug: how-to-deploy-sharepoint-syntex-model
-draft: false
-lastmod: 2022-09-04T21:29:31.052Z
-feature-img: /img/posts/2022-09-04/SharePoint_Syntex_REST-API2.png
+feature-img: /assets/img/posts/2022-09-04/SharePoint_Syntex_REST-API2.png
 author: MarvinBangert
 excerpt_separator: <!--more-->
 ---
@@ -33,22 +31,22 @@ SharePoint Syntex is a Microsoft 365 service that uses advanced AI and machine t
 ## SharePoint Syntex Content Center
 
 You can manually deploy SharePoint Syntex models to a library in two different ways. First, you can select a site and library right from the Content Center, after classifying your files and training the extractors. You will see a section "Where the model is applied" and you can easily select multiple libraries to deploy your model to.
-![]("assets/img/posts/2022-09-04/SharePoint_Syntex_ContentCenterDeployment.png")
+![]({{"assets/img/posts/2022-09-04/SharePoint_Syntex_ContentCenterDeployment.png" | relative_url}})
 
 
 ## SharePoint library
 
 The other way around is to deploy SharePoint Syntex models from a library you are currently on. Within the ribbon menu, select "Automate" - "View models". You will see all available models you can add to this library (and which are already deployed).
 
-![](/img/posts/2022-09-04/SharePoint_Syntex_LibraryDeployment1.png)
+![]({{"assets/img/posts/2022-09-04/SharePoint_Syntex_LibraryDeployment1.png" | relative_url}})
 
 Select the model you want to apply to this library.
 
-![](/img/posts/2022-09-04/SharePoint_Syntex_LibraryDeployment2.png)
+![]({{"assets/img/posts/2022-09-04/SharePoint_Syntex_LibraryDeployment2.png" | relative_url}})
 
 Before deploying it, you will get an overview about the configuration and extractors.
 
-![](/img/posts/2022-09-04/SharePoint_Syntex_LibraryDeployment3.png)
+![]({{"assets/img/posts/2022-09-04/SharePoint_Syntex_LibraryDeployment3.png" | relative_url}})
 
 You can add multiple models to the same library, when you upload a new document, each model will check if the document fits it's classification and then extract the information you configured within the Content Center.
 
@@ -101,7 +99,7 @@ Just copy the address from the browser address bar (see image below). As above, 
 **Get unique model id**
 To get the unique model id you can either open the Content Center and select the model you want to deploy, you will find the model id within the browser address bar or use the PowerShell cmdlet "Get-PnPSyntexModel" from above.
 
-![](/img/posts/2022-09-04/SharePoint_Syntex_REST-API1.png)
+![]({{"assets/img/posts/2022-09-04/SharePoint_Syntex_REST-API1.png" | relative_url}})
 
 
 **Power Automate flow action**
@@ -134,7 +132,7 @@ Body:
   }
 ```
 
-![](/img/posts/2022-09-04/SharePoint_Syntex_REST-API2.png)
+![]({{"/img/posts/2022-09-04/SharePoint_Syntex_REST-API2.png" | relative_url}})
 
 
 # Summary
