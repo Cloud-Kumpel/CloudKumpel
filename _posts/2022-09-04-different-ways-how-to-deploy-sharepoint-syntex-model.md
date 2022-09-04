@@ -148,7 +148,7 @@ Body:
   }
 ```
 
-![]({{"/img/posts/2022-09-04/SharePoint_Syntex_REST-API2.png" | relative_url}})
+![]({{"assets/img/posts/2022-09-04/SharePoint_Syntex_REST-API2.png" | relative_url}})
 
 
 # Summary
