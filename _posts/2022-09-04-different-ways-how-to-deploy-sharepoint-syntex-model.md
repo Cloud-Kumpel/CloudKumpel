@@ -36,7 +36,7 @@ You can manually deploy SharePoint Syntex models to a library in two different w
 
 ## SharePoint library
 
-The other way around is to deploy SharePoint Syntex models from a library you are currently on. Within the ribbon menu, select "Automate" - "View models". You will see all available models you can add to this library (and which are already deployed).
+The other way around is to deploy SharePoint Syntex models from a library you are currently on. Within the command bar menu, select "Automate" - "View models". You will see all available models you can add to this library (and which are already deployed).
 
 ![]({{"assets/img/posts/2022-09-04/SharePoint_Syntex_LibraryDeployment1.png" | relative_url}})
 
