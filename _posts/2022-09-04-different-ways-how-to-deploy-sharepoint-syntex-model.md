@@ -98,6 +98,7 @@ Same works for the Target library server relative url:
 "/sites/SiteName/Shared%20Documents"
 
 **Get content center url + server relative url**
+
 If you don't know the Content Center url, as an administrator you can open the Microsoft 365 admin center, select 
 
 "Settings" - "Org settings" - "SharePoint Syntex" - "Document understanding" - "Content center address"
@@ -110,12 +111,14 @@ select the model you want to apply and click on "View model details" - "Manage m
 Just copy the address from the browser address bar (see image below). As above, you can derive the server relative url from the url.
 
 **Get unique model id**
+
 To get the unique model id you can either open the Content Center and select the model you want to deploy, you will find the model id within the browser address bar or use the PowerShell cmdlet "Get-PnPSyntexModel" from above.
 
 ![]({{"assets/img/posts/2022-09-04/SharePoint_Syntex_REST-API1.png" | relative_url}})
 
 
 **Power Automate flow action**
+
 After you got all information, you can configure the Power Automate flow action:
 
 ```json
