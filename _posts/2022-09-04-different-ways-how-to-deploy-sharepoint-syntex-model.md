@@ -25,7 +25,7 @@ today we will learn how to deploy a SharePoint Syntex Model on a SharePoint libr
 
 # Short Intro into SharePoint Syntex
 
-SharePoint Syntex is a Microsoft 365 service that uses advanced AI and machine teaching to amplify human expertise, automate content processing and transform content into knowledge. Besides many other features, you can create a model, start classifying and training your extractors to automate the metadata extraction from various unstructured documents (like contracts, invoices or receipts). To create a model, you need a Content Center Site within your tenant and SharePoint Syntex (Add-On) licenses. If you want to learn more about SharePoint Syntex, please check out the [Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/).
+SharePoint Syntex is a Microsoft 365 service that uses advanced AI and machine teaching to amplify human expertise, automate content processing and transform content into knowledge. Besides many other features, you can create a model, start classifying and training your extractors to automate the metadata extraction from various unstructured documents (like contracts, invoices or receipts). The service is licensed with an add-on license [SharePoint Syntex](https://www.microsoft.com/en-us/microsoft-365/enterprise/sharepoint-syntex) and to create a model, you need a Content Center Site within your tenant. If you want to learn more about SharePoint Syntex, please check out the [Microsoft Docs](https://docs.microsoft.com/en-us/microsoft-365/contentunderstanding/).
 
 # How to manually deploy SharePoint Syntex
 ## SharePoint Syntex Content Center
