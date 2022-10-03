@@ -9,7 +9,7 @@ tags:
 feature-img: /assets/img/header%20image.png
 author: get-adr
 excerpt_separator: <!--more-->
-lastmod: 2022-10-03T19:12:34.033Z
+lastmod: 2022-10-03T19:15:07.080Z
 ---
 # Stream (on SharePoint) OOTB Features
 Seit dem letzten [Artikel](https://cloudkumpel.de/2022/05/29/Stream-(on-SharePoint)-%C3%9Cbersicht-und-Stream-on-SharePoint-Portal.html) zu Stream (on SharePoint) ist einige Zeit vergangen und Microsoft hat ganz schön Gas gegeben was die Bereitstellung neuer (alter) Funktionen in Stream (on SharePoint) anbelangt. Also höchste Zeit sich mal anzuschauen, was man mittlerweile alles Out-Of-The-Box machen kann.
@@ -40,7 +40,7 @@ Mit der Option auch nicht nur eigene Fotos als Hintergrund zu verwenden, sondern
 Ansonsten stehen Hintergrundunschärfe und die bereits bekannten Bilder zur Auswahl.
 
 Sind alle Einstellungen und FIlter / Hintergründe wie gewünscht vorgenommen, kann die Aufnahme gestartet werde. Wie bisher können maximal 15 Minuten aufgezeichnet werden. Effekte können während der Aufnahme noch angepasst werden. So kann man beispielsweise mit dem Freihandeffekt auf die Tafel in einer Hintergrundgrafik schreiben.
-![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Hintergrund.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Hintergund-Tafel.png" | relative_url}})
 Das eigene Video Bild kann bei Nutzung eines Hintergrundbildes neben Zentriert auch nach recht- und linksunten verschoben werden:
 ![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-aufnahme.png" | relative_url}})
 Ist die Aufzeichnung abgeschlossen, kann das Video noch zugeschnitten werden, Also nicht benötigte Teile an Anfang und Ende können entfernt werden.
