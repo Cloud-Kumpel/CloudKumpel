@@ -69,7 +69,7 @@ He enjoys having conversation and exchange with people about different kind of t
 </a>
 
 ## Adrian Ritter
-<img alt="Foto Adrian" src="/assets/img/adrian_180x180.jpg" style="float:left;"/>Adrian works as Cloud Architect. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
+<img alt="Foto von Adrian" src="/assets/img/adrian_180x180.jpg" style="float:left;"/>Adrian works as Cloud Architect. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
 
 His roots lie in working as a SharePoint consultant. In many projects he was able to gather expert knowledge around business requirements for collaboration and processes as well as user adoption. In addition to his work, he is interested in every type of technology, exchanges with people to get to know new perspectives. During the holidays he loves to sail on the Baltic Sea or the Dutch lakes.
 
