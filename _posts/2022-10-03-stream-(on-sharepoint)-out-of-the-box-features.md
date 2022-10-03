@@ -9,7 +9,7 @@ tags:
 feature-img: /assets/img/header%20image.png
 author: get-adr
 excerpt_separator: <!--more-->
-lastmod: 2022-10-03T19:15:07.080Z
+lastmod: 2022-10-03T19:34:35.216Z
 ---
 # Stream (on SharePoint) OOTB Features
 Seit dem letzten [Artikel](https://cloudkumpel.de/2022/05/29/Stream-(on-SharePoint)-%C3%9Cbersicht-und-Stream-on-SharePoint-Portal.html) zu Stream (on SharePoint) ist einige Zeit vergangen und Microsoft hat ganz schön Gas gegeben was die Bereitstellung neuer (alter) Funktionen in Stream (on SharePoint) anbelangt. Also höchste Zeit sich mal anzuschauen, was man mittlerweile alles Out-Of-The-Box machen kann.
@@ -24,7 +24,7 @@ Ein Klick startet der Aufnahmedialog:
 Hier fällt schnell auf, dass die Menüs komplett überarbeitet wurden. Der Dialog startet mit aktiver Webcam und über den ersten Button, lässt sich die Bildschirmaufzeichnung direkt dazuschalten.
 Im Optionen Menü verbergen sich die Einstellungen für Audio und Video.
 ![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Optionen.png" | relative_url}})
-Mit Klick auf "Nur Mikro" wird die gerade ausgewählte Kamera deaktiviert und nur Audio aufgezeichnet. So ist also auch die Podcast Aufzeichnung auf diesem Weg machbar. Was "Video Spiegeln" und "Stumm" bewirken dürfte klar sein 🙂 Hinter "Einstellungen" verbirgt sich die Auswahl der gewünschten Kamera und des Mikrofons. Hier wird auch die Aussteuerung angezeigt.
+Mit Klick auf "Nur Mikro" wird die gerade ausgewählte Kamera deaktiviert und nur Audio aufgezeichnet. So ist also auch die Podcast Aufzeichnung auf diesem Weg machbar. Was "Video Spiegeln" und "Stumm" bewirken dürfte klar sein 🙂 Hinter "Geräteeinstellungen" verbirgt sich die Auswahl der gewünschten Kamera und des Mikrofons. Hier wird auch die Aussteuerung angezeigt.
 Mit Klick auf Effekte steht eine Auswahl an Filtern bereit, die in Echtzeit auf das Video angewendet werden können.
 ![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Filter.png" | relative_url}})
 EIn weiterer Effekt ist das hinzufügen von Freitext zum Video. Dafür stehen folgende Schriftstile zur Verfügung:
