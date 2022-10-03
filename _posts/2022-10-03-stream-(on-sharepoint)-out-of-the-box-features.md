@@ -9,42 +9,42 @@ tags:
 feature-img: /assets/img/header%20image.png
 author: get-adr
 excerpt_separator: <!--more-->
-lastmod: 2022-10-03T19:08:52.678Z
+lastmod: 2022-10-03T19:12:34.033Z
 ---
 # Stream (on SharePoint) OOTB Features
 Seit dem letzten [Artikel](https://cloudkumpel.de/2022/05/29/Stream-(on-SharePoint)-%C3%9Cbersicht-und-Stream-on-SharePoint-Portal.html) zu Stream (on SharePoint) ist einige Zeit vergangen und Microsoft hat ganz schön Gas gegeben was die Bereitstellung neuer (alter) Funktionen in Stream (on SharePoint) anbelangt. Also höchste Zeit sich mal anzuschauen, was man mittlerweile alles Out-Of-The-Box machen kann.
 <!--more-->
 ## Neues im Stream on SharePoint "Portal" - Neue Aufzeichnung
 Seit dem letzten Artikel hat das neue Stream Portal eine Funktion von Stream Classic erhalten,
-![]({{"assets/img/posts/2022-09-04/stream-classic-record-screen.png" | relative_url}}) nämlich die Möglichkeit direkt Videos in Stream aufzuzeichnen, sei es per Webcam, Bildschirmaufnahme oder einer Kombination von beiden.
+![]({{"assets/img/posts/2022-10-03/stream-classic-record-screen.png" | relative_url}}) nämlich die Möglichkeit direkt Videos in Stream aufzuzeichnen, sei es per Webcam, Bildschirmaufnahme oder einer Kombination von beiden.
 Der Button zur neuen Funktion sticht direkt ins Auge:
-![]({{"assets/img/posts/2022-09-04/stream-on-sharepoint-record-button.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/stream-on-sharepoint-record-button.png" | relative_url}})
 Ein Klick startet der Aufnahmedialog:
-![]({{"assets/img/posts/2022-09-04/stream-on-sharepoint-record-dialog.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/stream-on-sharepoint-record-dialog.png" | relative_url}})
 Hier fällt schnell auf, dass die Menüs komplett überarbeitet wurden. Der Dialog startet mit aktiver Webcam und über den ersten Button, lässt sich die Bildschirmaufzeichnung direkt dazuschalten.
 Im Optionen Menü verbergen sich die Einstellungen für Audio und Video.
-![]({{"assets/img/posts/2022-09-04/Stream-On-SharePoint-Optionen.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Optionen.png" | relative_url}})
 Mit Klick auf "Nur Mikro" wird die gerade ausgewählte Kamera deaktiviert und nur Audio aufgezeichnet. So ist also auch die Podcast Aufzeichnung auf diesem Weg machbar. Was "Video Spiegeln" und "Stumm" bewirken dürfte klar sein 🙂 Hinter "Einstellungen" verbirgt sich die Auswahl der gewünschten Kamera und des Mikrofons. Hier wird auch die Aussteuerung angezeigt.
 Mit Klick auf Effekte steht eine Auswahl an Filtern bereit, die in Echtzeit auf das Video angewendet werden können.
-![]({{"assets/img/posts/2022-09-04/Stream-On-SharePoint-Filter.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Filter.png" | relative_url}})
 EIn weiterer Effekt ist das hinzufügen von Freitext zum Video. Dafür stehen folgende Schriftstile zur Verfügung:
-![]({{"assets/img/posts/2022-09-04/Stream-On-SharePoint-Text.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Text.png" | relative_url}})
 Über die Stift Option kann Freihand im Aufnahmebereich gemalt werden. Die Farbe und Strichbreite lässt sich dafür frei wählen.
-![]({{"assets/img/posts/2022-09-04/Stream-On-SharePoint-Stift.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Stift.png" | relative_url}})
 Über die Foto Option kann per Drag&Drop oder per durchsuchen Dialog eine Grafik im jpg oder png Format zum Video als Overlay hinzugefügt werden. Auch das hinzufügen mehrere Grafiken ist möglich. Hinzugefügt Grafiken können skaliert, gedreht und kopiert werden.
 > TIP: Transparenz in png Dateien funktioniert auch.
 
 Über den Hintergrund Button stehen Optionen für die Konfiguration des Hintergrundes zur Verfügung. Die meisten davon dürften den Anwendern bereits von Microsoft Teams bekannt vorkommen.
 Mit der Option auch nicht nur eigene Fotos als Hintergrund zu verwenden, sondern auch eigene Videos im webm oder mp4 Format auszuwählen kommen wir zu der ersten Neuerung. Außerdem lässt sich die Bildschirmfreigabe als Hintergrund verwenden:
-![]({{"assets/img/posts/2022-09-04/Stream-On-SharePoint-Hintergrund.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Hintergrund.png" | relative_url}})
 Ansonsten stehen Hintergrundunschärfe und die bereits bekannten Bilder zur Auswahl.
 
 Sind alle Einstellungen und FIlter / Hintergründe wie gewünscht vorgenommen, kann die Aufnahme gestartet werde. Wie bisher können maximal 15 Minuten aufgezeichnet werden. Effekte können während der Aufnahme noch angepasst werden. So kann man beispielsweise mit dem Freihandeffekt auf die Tafel in einer Hintergrundgrafik schreiben.
-![]({{"assets/img/posts/2022-09-04/Stream-On-SharePoint-Hintergrund.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Hintergrund.png" | relative_url}})
 Das eigene Video Bild kann bei Nutzung eines Hintergrundbildes neben Zentriert auch nach recht- und linksunten verschoben werden:
-![]({{"assets/img/posts/2022-09-04/Stream-On-SharePoint-aufnahme.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-aufnahme.png" | relative_url}})
 Ist die Aufzeichnung abgeschlossen, kann das Video noch zugeschnitten werden, Also nicht benötigte Teile an Anfang und Ende können entfernt werden.
-![]({{"assets/img/posts/2022-09-04/Stream-On-SharePoint-Zuschneiden.png" | relative_url}})
+![]({{"assets/img/posts/2022-10-03/Stream-On-SharePoint-Zuschneiden.png" | relative_url}})
 
 In meinen Tests erfolgte die Webcam Aufzeichnung mit folgenden Video Einstellungen:
 - Format [MPEG-4 AVC / h264](https://de.wikipedia.org/wiki/H.264)
