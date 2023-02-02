@@ -1,12 +1,17 @@
 ---
+title: Bookings with me (preview)
+date: 2022-07-23 00:00:00 Z
+tags:
+- Bookings with me
+- Bookings
+- Outlook
+- Deutsch
 layout: post
-title: "Bookings with me (preview)"
-date: "2022-07-23"
-tags: [Bookings with me,Bookings,Outlook,Deutsch]
 feature-img: "/assets/img/posts/2022-07-23/header.jpg"
 author: get-adr
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 Wie von Microsoft angekündigt befindet sich "Bookings with me" aktuell in der Public Preview für targeted release Tenants. Ab Ende Juli soll der neue Service auch in Standard Release Tenant verfügbar sein.
 Aber erst mal einen Schritt zurück, was ist eigentlich "Bookings with me"? Ähnlich wie die Bookings App oder FindTime ist Bookings with me ein Service der bei der Terminfindung bzw. Buchung helfen soll.
 Im Gegensatz zu Bookings richtet sich "Bookings with me" an Einzelpersonen und nicht an Gruppen. Der größte Unterschied zu FindTime ist, dass die Terminfindung nicht Konsens basiert ist und zunächst nur 1:1 Meetings angeboten und gebucht werden können.

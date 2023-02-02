@@ -1,11 +1,17 @@
 ---
+title: 'Power BI: Divison wanted - my German ''Bezirksliga'' suggestion'
+date: 2022-06-26 00:00:00 Z
+tags:
+- Power BI
+- HowTo
+- Football
+- Geocoordinates
+- API
+- Power Automate Desktop
 layout: post
-title: "Power BI: Divison wanted - my German 'Bezirksliga' suggestion"
-date: "2022-06-26"
-tags: [Power BI,HowTo,Football,Geocoordinates,API,Power Automate Desktop]
 feature-img: "/assets/img/posts/2022-06-26/Football.jpg"
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Hey folks,

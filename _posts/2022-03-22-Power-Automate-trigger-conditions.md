@@ -1,11 +1,13 @@
 ---
+title: 'Power Automate: Trigger conditions'
+date: 2022-03-22 00:00:00 Z
+tags:
+- Power Automate
+- HowTo
 layout: post
-title: "Power Automate: Trigger conditions"
-date: "2022-03-22"
-tags: [Power Automate,HowTo]
 feature-img: "/assets/img/header%20image.png"
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 In Microsoft Power Automate, flows are executed as soon as the trigger is met, e.g. an item is created or edited in SharePoint, a new Microsoft Forms survey has been filled out, or an email is received. But sometimes the flow should only start when a certain condition is met, for example the SharePoint list value has a certain value. For this there are the trigger conditions in Power Automate, which I would like to go into in more detail below.

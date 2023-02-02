@@ -1,11 +1,15 @@
 ---
+title: Convert classic SharePoint site to modern
+date: 2019-05-28 00:00:00 Z
+tags:
+- Office 365
+- PowerShell
+- SharePoint Online
+- PnP
 layout: post
-title: "Convert classic SharePoint site to modern"
-date: "2019-05-28"
-tags: [Office 365,PowerShell,SharePoint Online,PnP]
 author: MarvinBangert
-feature-img: "assets/img/posts/2019-05-28/PowerShell_Icon.png"
-excerpt_separator: <!--more-->
+feature-img: assets/img/posts/2019-05-28/PowerShell_Icon.png
+excerpt_separator: "<!--more-->"
 ---
 
 If you want to convert your classic SharePoint sites into modern SharePoint sites, there were released a new commandlets to PnP PowerShell which allows you to achieve this. 

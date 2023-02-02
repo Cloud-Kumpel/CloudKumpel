@@ -1,11 +1,15 @@
 ---
+title: 'Power Apps: Zustimmung per PowerShell geben'
+date: 2020-05-24 00:00:00 Z
+tags:
+- Power Apps
+- HowTo
+- Deutsch
+- PowerShell
 layout: post
-title: "Power Apps: Zustimmung per PowerShell geben"
-date: "2020-05-24"
-tags: [Power Apps,HowTo,Deutsch,PowerShell]
-feature-img: "assets/img/posts/2020-05-24/Image-1217.png"
+feature-img: assets/img/posts/2020-05-24/Image-1217.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Moin zusammen,  

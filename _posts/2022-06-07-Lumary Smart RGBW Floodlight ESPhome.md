@@ -1,12 +1,20 @@
 ---
+title: Using a Lumary Smart RGBW Flood Light with ESPHome
+date: 2022-06-07 00:00:00 Z
+tags:
+- Smart home
+- ESPHome
+- Tasmota
+- ESP8266
+- hacking
+- homeassistant
+- English
 layout: post
-title: "Using a Lumary Smart RGBW Flood Light with ESPHome"
-date: "2022-06-07"
-tags: [Smart home,ESPHome,Tasmota,ESP8266,hacking,homeassistant,English]
 feature-img: "/assets/img/header%20image.png"
 author: get-adr
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 Hey smart home folks!
 
 While looking around for a smart rgbw outdoor flood light, compatible with home assistant and no dependencies to a public cloud I came across this information regarding a not Tasmota compatible device:

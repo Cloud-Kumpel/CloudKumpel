@@ -1,12 +1,12 @@
 ---
-layout: post
 title: Creative
-feature-img: "assets/img/portfolio/safe.png"
-img: "assets/img/portfolio/safe.png"
-date: August, 16 2014
-tags: [Ipsum]
+date: 2014-08-16 00:00:00 Z
+layout: post
+feature-img: assets/img/portfolio/safe.png
+img: assets/img/portfolio/safe.png
+tags:
+- Ipsum
 ---
-
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
 totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. 

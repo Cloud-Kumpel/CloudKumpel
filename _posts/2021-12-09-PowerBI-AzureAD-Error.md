@@ -1,9 +1,12 @@
 ---
-layout: post
 title: Power BI Azure AD Error - Power BI App Permission required
-tags: [Azure AD,Power BI]
+date: 2021-12-09 00:00:00 Z
+tags:
+- Azure AD
+- Power BI
+layout: post
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Hey folks,

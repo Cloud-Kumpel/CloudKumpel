@@ -1,16 +1,17 @@
 ---
-layout: post
 title: Stream (on SharePoint) Out Of The Box Features
-date: 2022-10-03
+date: 2022-10-03 00:00:00 Z
 tags:
-  - SharePoint Online
-  - Stream
-  - Video
-feature-img: /assets/img/header%20image.png
+- SharePoint Online
+- Stream
+- Video
+layout: post
+feature-img: "/assets/img/header%20image.png"
 author: get-adr
-excerpt_separator: <!--more-->
-lastmod: 2022-10-03T19:34:35.216Z
+excerpt_separator: "<!--more-->"
+lastmod: 2022-10-03 19:34:35.216000000 Z
 ---
+
 # Stream (on SharePoint) OOTB Features
 Seit dem letzten [Artikel](https://cloudkumpel.de/2022/05/29/Stream-(on-SharePoint)-%C3%9Cbersicht-und-Stream-on-SharePoint-Portal.html) zu Stream (on SharePoint) ist einige Zeit vergangen und Microsoft hat ganz schön Gas gegeben was die Bereitstellung neuer (alter) Funktionen in Stream (on SharePoint) anbelangt. Also höchste Zeit sich mal anzuschauen, was man mittlerweile alles Out-Of-The-Box machen kann.
 <!--more-->

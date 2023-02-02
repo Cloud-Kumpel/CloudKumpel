@@ -1,11 +1,14 @@
 ---
+title: 'Power Automate: Configure "run after"'
+date: 2020-03-01 00:00:00 Z
+tags:
+- Office 365
+- Power Automate
+- HowTo
 layout: post
-title: "Power Automate: Configure \"run after\""
-date: "2020-03-01"
-tags: [Office 365,Power Automate,HowTo]
-feature-img: "assets/img/posts/2020-03-01/Image-294.png"
+feature-img: assets/img/posts/2020-03-01/Image-294.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 There are several moments in Power Automate where unexpected things could happen, like an approval has timed out or send an action has failed. To react on this kind of errors, you could use the "run after" functionality from Power Automate to maybe send an email to the owner of the flow. "Run after" is a functionality to define what will happen if an action "is successful", "has failed", "is skipped" and/or "has timed out". You configure the "run after" always on the action after the action which could get in one of the four states.

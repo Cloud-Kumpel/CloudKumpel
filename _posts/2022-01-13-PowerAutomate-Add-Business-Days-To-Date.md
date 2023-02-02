@@ -1,9 +1,11 @@
 ---
-layout: post
 title: Power Automate - Add Business Days to Date (Excludes Weekends)
-tags: [Power Automate]
+date: 2022-01-13 00:00:00 Z
+tags:
+- Power Automate
+layout: post
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Hey folks,

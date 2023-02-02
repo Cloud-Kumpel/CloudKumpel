@@ -1,11 +1,14 @@
 ---
+title: 'Power Automate: Triggerbedingungen'
+date: 2020-04-18 00:00:00 Z
+tags:
+- Power Automate
+- HowTo
+- Deutsch
 layout: post
-title: "Power Automate: Triggerbedingungen"
-date: "2020-04-18"
-tags: [Power Automate,HowTo,Deutsch]
-feature-img: "assets/img/posts/2020-04-18/Image-946.png"
+feature-img: assets/img/posts/2020-04-18/Image-946.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 In Microsoft Power Automate werden Flow ausgeführt, sobald der Trigger erfüllt wird, z.B. ein Element wird in SharePoint erstellt oder bearbeitet, eine neue Microsoft Forms Umfrage wurde ausgefüllt oder eine E-Mail ist eingegangen. Doch manchmal soll der Flow nur starten, wenn eine bestimmte Bedingung erfüllt ist, etwa der SharePoint Listenwert weißt einen bestimmten Wert auf. Hierzu gibt es die Triggerbedingungen in Power Automate, auf die ich im weiteren genauer eingehen möchte.

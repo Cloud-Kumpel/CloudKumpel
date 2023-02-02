@@ -1,10 +1,15 @@
 ---
-layout: post
 title: Lenovo ThinkVision m14t an Desktop PC nutzen
-tags: [Hardware, Touch Display, Thunderbolt]
+date: 2022-02-20 00:00:00 Z
+tags:
+- Hardware
+- Touch Display
+- Thunderbolt
+layout: post
 author: get-adr
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 Heute von mir mal ein wahrscheinlich etwas nieschiger Post :)
 Seit längerem habe ich mit dem Gedanken gespielt einen mobilen Monitor anzuschaffen, sozusagen als Dual-Display im mobile Office.
 Mittlerweile findet man eine breite Auswahl in einer eben so breiten Preisspanne. 

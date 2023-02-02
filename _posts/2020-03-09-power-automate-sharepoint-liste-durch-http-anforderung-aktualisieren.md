@@ -1,11 +1,15 @@
 ---
+title: 'Power Automate: SharePoint Liste durch HTTP-Anforderung aktualisieren'
+date: 2020-03-09 00:00:00 Z
+tags:
+- Office 365
+- Power Automate
+- HowTo
+- REST API
 layout: post
-title: "Power Automate: SharePoint Liste durch HTTP-Anforderung aktualisieren"
-date: "2020-03-09"
-tags: [Office 365,Power Automate,HowTo,REST API]
-feature-img: "assets/img/posts/2020-03-09/Image-315.png"
+feature-img: assets/img/posts/2020-03-09/Image-315.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 In Power Automate können wir auch direkt per REST API Änderungen in SharePoint vornehmen. So können wir eine bestehenden Listeneintrag aktualisieren oder auch eine komplett neue SharePoint Site Collection erstellen. In diesem Beitrag werden wir einen bestehenden Listeneintrag in einer SharePoint Liste aktualisieren.

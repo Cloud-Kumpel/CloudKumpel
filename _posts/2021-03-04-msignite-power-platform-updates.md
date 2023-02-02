@@ -1,11 +1,19 @@
 ---
-layout: post
 title: "#MSIgnite - Power Platform Updates"
-date: "2021-03-04"
-tags: [Power Automate,Power Apps,Power BI,Power Fx,Deutsch,Power Virtual Agents,UI Flows,Ignite]
-feature-img: "assets/img/posts/2021-03-04/Ignite_Header.png"
+date: 2021-03-04 00:00:00 Z
+tags:
+- Power Automate
+- Power Apps
+- Power BI
+- Power Fx
+- Deutsch
+- Power Virtual Agents
+- UI Flows
+- Ignite
+layout: post
+feature-img: assets/img/posts/2021-03-04/Ignite_Header.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Am Dienstag, 02.03.2021, um 17:30 Uhr CET ist die #MSIgnite 2021 mit der Keynote von Microsoft CEO [Satya Nadella](https://twitter.com/SatyaNadella) gestartet. Zuerst stellte Satya fünf Schlüsselattribute der nächsten Generation von Cloudinnovationen vor:

@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Markdown and HTML
-tags: [Katex, Markdown]
+layout: post
+tags:
+- Katex
+- Markdown
 author: rohanchandra
 ---
 

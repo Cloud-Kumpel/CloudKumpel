@@ -1,11 +1,15 @@
 ---
+title: 'Power Apps & Power Automate: Übergabe von Parametern'
+date: 2020-09-13 00:00:00 Z
+tags:
+- Power Automate
+- Power Apps
+- HowTo
+- Deutsch
 layout: post
-title: "Power Apps & Power Automate: Übergabe von Parametern"
-date: "2020-09-13"
-tags: [Power Automate,Power Apps,HowTo,Deutsch]
-feature-img: "assets/img/posts/2020-09-13/Image-1622.png"
+feature-img: assets/img/posts/2020-09-13/Image-1622.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 In einigen Fällen ist es wichtig, dass Informationen zwischen Power Automate und Power Apps ausgetauscht werden. Diese Informationen bzw. Parameter werden meistens in unserer Anwendung in Power Apps ausgewählt und müssen dann zu einem Power Automate Flow gesendet werden. Genauso möchten wir aber auch Informationen oder Parameter zurückerhalten, sobald der Flow ausgeführt wurde.

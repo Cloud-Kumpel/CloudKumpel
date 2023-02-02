@@ -1,11 +1,17 @@
 ---
+title: Neue PowerShell cmdlets für Data Gateway Installation (Public Preview)
+date: 2020-05-07 00:00:00 Z
+tags:
+- Power Automate
+- Power Apps
+- Power BI
+- PowerShell
+- Deutsch
+- Gateway
 layout: post
-title: "Neue PowerShell cmdlets für Data Gateway Installation (Public Preview)"
-date: "2020-05-07"
-tags: [Power Automate,Power Apps,Power BI,PowerShell,Deutsch,Gateway]
-feature-img: "assets/img/posts/2020-05-07/PowerShell_Icon.png"
+feature-img: assets/img/posts/2020-05-07/PowerShell_Icon.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Am 06. Mai 2020 wurde über den Power BI Blog die Public Preview für die Automatisierung des Data Gateway angekündigt. Dabei wurden neue PowerShell cmdlets angekündigt, die die Automatisierung des Data Gateway Connectors ermöglichen.

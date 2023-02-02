@@ -1,11 +1,14 @@
 ---
+title: 'Power Automate: "Ausführen nach" konfigurieren'
+date: 2020-03-08 00:00:00 Z
+tags:
+- Office 365
+- Power Automate
+- HowTo
 layout: post
-title: "Power Automate: \"Ausführen nach\" konfigurieren"
-date: "2020-03-08"
-tags: [Office 365,Power Automate,HowTo]
-feature-img: "assets/img/posts/2020-03-08/Image-306.png"
+feature-img: assets/img/posts/2020-03-08/Image-306.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 In Power Automate können immer wieder unvorhergesehene Ereignisse geschehen, zum Beispiel eine Genehmigung ist in einen Timeout gelaufen oder eine E-Mail konnte nicht versendet werden. Um auf diese Fehler zu reagieren, können wir in Power Automate die "Ausführen nach" Funktionalität nutzen, sodass der Besitzer benachrichtigt wird. "Ausführen nach" ist eine Funktion, um zu definieren, was soll passieren, wenn eine Aktion "erfolgreich", "fehlerhaft", "übersprungen" oder "einen Timeout" verursacht hat. "Ausführen nach" bezieht sich dabei immer auf die vorangegangene Aktion und muss auf der direkt nachfolgenden Aktion definiert werden.

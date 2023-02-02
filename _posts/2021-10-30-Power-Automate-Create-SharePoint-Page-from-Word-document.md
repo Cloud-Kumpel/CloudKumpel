@@ -1,10 +1,15 @@
 ---
-layout: post
 title: Power Automate - Create SharePoint Page from Word document
-tags: [SharePoint Online,Power Automate,Word]
+date: 2021-10-30 00:00:00 Z
+tags:
+- SharePoint Online
+- Power Automate
+- Word
+layout: post
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 Hey folks,
 
 recently I came across a question in the Power Automate community forum, where _[retrofuture](https://powerusers.microsoft.com/t5/Building-Flows/Send-http-request-to-SharePoint-error/m-p/1323311)_ came up with the question to generate a SharePoint Page filled with a word document content uploaded/created in SharePoint Online. The basic idea came from a _[Youtube video](https://www.youtube.com/watch?v=QtBqeEEOgdE)_ by _Lernen Tech / Krishan Sharma_, who used a SharePoint list.

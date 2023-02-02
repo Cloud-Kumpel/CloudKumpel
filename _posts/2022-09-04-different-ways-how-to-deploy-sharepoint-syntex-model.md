@@ -1,22 +1,22 @@
 ---
-layout: post
 title: Different ways how to deploy SharePoint Syntex model
-description: Learn how to manually and automatically deploy SharePoint Syntex Model to a
-  SharePoint library
-date: 2022-09-04
+date: 2022-09-04 00:00:00 Z
 tags:
-  - Power Automate
-  - SharePoint Syntex
-  - Power Platform
+- Power Automate
+- SharePoint Syntex
+- Power Platform
+layout: post
+description: Learn how to manually and automatically deploy SharePoint Syntex Model
+  to a SharePoint library
 keywords:
-  - Power Automate
-  - Power Platform
-  - SharePoint Syntex
-slug: how-to-deploy-sharepoint-syntex-model
-feature-img: /assets/img/posts/2022-09-04/SharePoint_Syntex_REST-API2.png
+- Power Automate
+- Power Platform
+- SharePoint Syntex
+feature-img: "/assets/img/posts/2022-09-04/SharePoint_Syntex_REST-API2.png"
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 Hey folks!
 
 today we will learn how to deploy a SharePoint Syntex Model on a SharePoint library in different ways. Especially, when you want to automatically deploy it on a SharePoint library, e.g. for each new project or department site, it can get a bit more complex to automate everything. Unfortunately, currently it's not possible to deploy it using a SharePoint site template, but I will show you all other ways how to deploy it.

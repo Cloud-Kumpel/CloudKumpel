@@ -1,10 +1,18 @@
 ---
-layout: post
 title: SharePoint Library View In File Explorer
-tags: [Libraries,SharePoint Online,WebDAV,Windows Explorer, Edge, HowTo]
+date: 2021-10-22 00:00:00 Z
+tags:
+- Libraries
+- SharePoint Online
+- WebDAV
+- Windows Explorer
+- Edge
+- HowTo
+layout: post
 author: get-adr
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 Back in the days in SharePoint On-Prem there was a control that let you open a SharePoint Library in Windows Explorer. This was a handy feature, for example mass copying of documents.
 This feature also made it to SharePoint online, but always was depending on Internet Explorer.
 <!--more-->
