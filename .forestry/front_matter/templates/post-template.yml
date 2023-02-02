@@ -4,8 +4,10 @@ hide_body: false
 fields:
 - type: text
   name: title
-  default: ":year:"
+  default: ''
   label: URL / Title
+  description: "&lt;year&gt;-&lt;month&gt;-&lt;day&gt;-&lt;title&gt;<br><br>After
+    saving the Title can be changed"
 - type: datetime
   name: date
   label: date
