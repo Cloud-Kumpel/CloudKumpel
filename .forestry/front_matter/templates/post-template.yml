@@ -4,8 +4,8 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: URL
   default: ":year:"
+  label: URL / Title
 - type: datetime
   name: date
   label: date
