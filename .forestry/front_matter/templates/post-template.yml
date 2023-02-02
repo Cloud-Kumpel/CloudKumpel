@@ -15,8 +15,34 @@ fields:
   config:
     use_select: true
     source:
-      type: pages
+      type: simple
       section: posts
+    options:
+    - Power Apps
+    - Power Automate
+    - SharePoint
+    - Power BI
+    - Power Virtual Agents
+    - API
+    - Adaptive Cards
+    - Azure
+    - Azure AD
+    - Bookings
+    - Deutsch
+    - Edge
+    - English
+    - Excel
+    - Gateway
+    - Office 365
+    - Power Fx
+    - Power Platform
+    - SharePoint Online
+    - Quick Tip
+    - Stream
+    - Microsoft Syntex
+    - Power Pages
+    - Power Automate Desktop
+    - REST API
 - type: text
   name: layout
   label: layout
