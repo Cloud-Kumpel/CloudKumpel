@@ -1,5 +1,5 @@
 ---
-title: test
+title: 2023-02-02-test
 date: 2023-02-02 19:12:00 Z
 tags:
 - test
