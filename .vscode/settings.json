@@ -1,12 +1,17 @@
 {
     "spellright.language": [
-        "en"
+        "de"
     ],
     "spellright.documentTypes": [
         "latex",
-        "plaintext"
+        "plaintext",
+        "markdown"
     ],
     "files.associations": {
         "*.yaml": "home-assistant"
+    },
+    "frontMatter.content.autoUpdateDate": true,
+    "frontMatter.dashboard.openOnStart": false,
+    "[markdown]": {
     }
 }

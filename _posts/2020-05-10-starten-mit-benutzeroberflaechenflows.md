@@ -1,11 +1,15 @@
 ---
+title: Starten mit Benutzeroberflächenflows
+date: 2020-05-10 00:00:00 Z
+tags:
+- Power Automate
+- Get Started
+- Deutsch
+- UI Flows
 layout: post
-title: "Starten mit Benutzeroberflächenflows"
-date: "2020-05-10"
-tags: [Power Automate,Get Started,Deutsch,UI Flows]
-feature-img: "assets/img/posts/2020-05-10/Image-1135.png"
+feature-img: assets/img/posts/2020-05-10/Image-1135.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Seit dem 02. April 2020 sind "beaufsichtigte" Benutzeroberflächenflows (engl. attended UI Flows / UI = User Interface) generell verfügbar. Ich nutze heute mal den Tag, um ein paar Einblicke in UI Flows zu geben und den ersten Automatismus zu erstellen.

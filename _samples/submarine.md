@@ -1,9 +1,9 @@
 ---
-layout: post
 title: Lorem Ipsum
-feature-img: "assets/img/portfolio/submarine.png"
-img: "assets/img/portfolio/submarine.png"
-date: 2017-09-03
+date: 2017-09-03 00:00:00 Z
+layout: post
+feature-img: assets/img/portfolio/submarine.png
+img: assets/img/portfolio/submarine.png
 ---
 
 Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 

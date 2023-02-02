@@ -1,11 +1,13 @@
 ---
+title: 'quickTip: Power Apps select all checkbox'
+date: 2020-09-13 00:00:00 Z
+tags:
+- Power Apps
+- Quick Tip
 layout: post
-title: "quickTip: Power Apps select all checkbox"
-date: "2020-09-13"
-tags: [Power Apps,Quick Tip]
-feature-img: "assets/img/posts/2020-09-13/Image-1629.png"
+feature-img: assets/img/posts/2020-09-13/Image-1629.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Recently a user from the Power Apps Community asked if there is a way to make a "select all" checkbox in Power Apps? You can find the question here: [https://powerusers.microsoft.com/t5/Building-Power-Apps/1-checkbox-Select-All-checkboxes/m-p/686443#M219603](https://powerusers.microsoft.com/t5/Building-Power-Apps/1-checkbox-Select-All-checkboxes/m-p/686443#M219603)

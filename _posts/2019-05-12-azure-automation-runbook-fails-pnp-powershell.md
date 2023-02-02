@@ -1,11 +1,15 @@
 ---
+title: 'Error: Azure Automation - Runbook fails when using PnP-PowerShell'
+date: 2019-05-12 00:00:00 Z
+tags:
+- Azure
+- PowerShell
+- Runbooks
+- PnP
 layout: post
-title: "Error: Azure Automation - Runbook fails when using PnP-PowerShell"
-date: "2019-05-12"
-tags: [Azure,PowerShell,Runbooks,PnP]
-feature-img: "assets/img/posts/2019-05-12/PnPError002.png"
+feature-img: assets/img/posts/2019-05-12/PnPError002.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Recently I worked on a project using Azure Automation Runbooks and PnP-PowerShell (for SharePoint Online) to automate some changes on a SharePoint site. When I used any commandlet that creates, adds or changes something - like "Add-PnP...", "New-PnP...", "Update-PnP...", "Set-PnP..." - the runbook enters a loop for three times without any error message and then the runbooks failed.

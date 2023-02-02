@@ -1,9 +1,11 @@
 ---
-layout: post
 title: The Real Lorem Ipsum
-tags: [Image, Color]
+layout: post
+tags:
+- Image
+- Color
 color: turquoise
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 ## Lorem Ipsum

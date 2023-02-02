@@ -1,8 +1,8 @@
 ---
+title: About
+permalink: "/about/"
 layout: page
-title: "About"
-permalink: /about/
-feature-img: "assets/img/header image.png"
+feature-img: assets/img/header image.png
 ---
 
 # About Cloud Kumpel
@@ -16,7 +16,7 @@ Hope you will enjoy this site and maybe learn something new! 🙂
 [Glück Auf!](https://en.wikipedia.org/wiki/Gl%C3%BCck_auf){:target="_blank"}
 
 ## Marvin Bangert
-<img alt="Foto Marvin" src="/assets/img/marvin_180x180.jpg" style="float:right;"/>Marvin Bangert is a Consultant for Microsoft Cloud technologies from Germany. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the owner of the Power Platform User Group Cologne, public speaker and blogger.
+<img alt="Foto Marvin" src="/assets/img/marvin_180x180.jpg" style="float:right;"/>Marvin Bangert is a Cloud Architect for Microsoft technologies from Germany. He is passionated about Microsoft SharePoint, Microsoft Teams, Power Platform (Power BI, Power Apps, Power Automate, Power Virtual Agents), Azure (in particular Automation) and other Microsoft 365 topics. Marvin is the owner of the Power Platform User Group Cologne, public speaker and blogger.
 
 He enjoys having conversation and exchange with people about different kind of topics and technologies, loves to travel the northern countries and learning new things, languages, food etc.
 
@@ -57,10 +57,19 @@ He enjoys having conversation and exchange with people about different kind of t
       <i class="fas fa-circle fa-stack-2x"></i>
       <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
     </span>
+</a>{% assign brand = 'meetup' %}{% assign icon = "fab fa-" | append: brand %}
+<a href="https://www.meetup.com/de-DE/Koln-Business-Intelligence-Meetup/"
+    title="Power BI User Group Cologne"
+    target="_blank"
+    rel="me">
+    <span class="fa-stack fa-lg">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="{{ icon }} fa-stack-1x fa-inverse"></i>
+    </span>
 </a>
 
 ## Adrian Ritter
-<img alt="Foto Adrian" src="/assets/img/adrian_180x180.jpg" style="float:left;"/>Adrian works as Cloud Architect. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
+<img alt="Foto von Adrian" src="/assets/img/adrian_180x180.jpg" style="float:left;"/>Adrian works as Cloud Architect. For more than 12 years, he has focused on designing and implementing collaboration platforms based on Microsoft technologies. No matter whether On-Prem or in the Cloud.
 
 His roots lie in working as a SharePoint consultant. In many projects he was able to gather expert knowledge around business requirements for collaboration and processes as well as user adoption. In addition to his work, he is interested in every type of technology, exchanges with people to get to know new perspectives. During the holidays he loves to sail on the Baltic Sea or the Dutch lakes.
 

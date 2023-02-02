@@ -1,8 +1,9 @@
 ---
+title: Bootstrap
 layout: post
-title: "Bootstrap"
 bootstrap: true
-tags: [Test]
+tags:
+- Test
 ---
 
 This theme is compatible with Bootstrap if you choose to use it in your pages or posts.

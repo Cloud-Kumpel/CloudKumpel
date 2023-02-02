@@ -1,11 +1,15 @@
 ---
+title: 'Power BI: SharePoint Online Datum und Uhrzeit korrigieren'
+date: 2020-03-13 00:00:00 Z
+tags:
+- Office 365
+- Power BI
+- HowTo
+- SharePoint Online
 layout: post
-title: "Power BI: SharePoint Online Datum und Uhrzeit korrigieren"
-date: "2020-03-13"
-tags: [Office 365,Power BI,HowTo,SharePoint Online]
-feature-img: "assets/img/posts/2020-03-13/Image-375.png"
+feature-img: assets/img/posts/2020-03-13/Image-375.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Wer in Power BI Daten aus SharePoint Online eingebunden hat und dabei vom UTC Datumsformat abweicht, ist sicherlich schon auf das Problem gestoßen, dass das Datum und die Uhrzeit in Power BI nicht richtig ist. In diesem Beitrag zeige ich, wie ihr den Fehler beheben könnt.

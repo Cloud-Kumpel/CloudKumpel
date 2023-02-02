@@ -1,11 +1,14 @@
 ---
+title: 'Power Automate: Triggerbedingungen'
+date: 2020-04-18 00:00:00 Z
+tags:
+- Power Automate
+- HowTo
+- Deutsch
 layout: post
-title: "Power Automate: Triggerbedingungen"
-date: "2020-04-18"
-tags: [Power Automate,HowTo,Deutsch]
-feature-img: "assets/img/posts/2020-04-18/Image-946.png"
+feature-img: assets/img/posts/2020-04-18/Image-946.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 In Microsoft Power Automate werden Flow ausgeführt, sobald der Trigger erfüllt wird, z.B. ein Element wird in SharePoint erstellt oder bearbeitet, eine neue Microsoft Forms Umfrage wurde ausgefüllt oder eine E-Mail ist eingegangen. Doch manchmal soll der Flow nur starten, wenn eine bestimmte Bedingung erfüllt ist, etwa der SharePoint Listenwert weißt einen bestimmten Wert auf. Hierzu gibt es die Triggerbedingungen in Power Automate, auf die ich im weiteren genauer eingehen möchte.
@@ -20,7 +23,14 @@ Nehmen wir das Beispiel, dass wir eine E-Mail Benachrichtigung erhalten möchten
 
 Dies hat allerdings zur Folge, dass unser Flow immer getriggert wird, sobald ein neues Element in unserer Liste erstellt oder bearbeitet wird, ganz egal, ob unser Feld Abgeschlossen gleich True oder False ist, die Überprüfung findet dann erst im Flow selbst statt. Betrachten wir allerdings die Anzahl der API-Anforderungen, die ein Benutzer durch seine Lizenz in 24 Stunden ausführen kann, könnte es bei einer hohen Bearbeitung in der SharePoint-Liste zu Problemen kommen:
 
-<table style="border-collapse: collapse; width: 100%; height: 221px;"><tbody><tr style="height: 43px;"><td style="width: 50%; height: 43px;">Benutzerlizenzen</td><td style="width: 50%; height: 43px;">Anzahl API-Anforderungen / 24 Stunden</td></tr><tr style="height: 43px;"><td style="width: 50%; height: 43px;">Dynamics 365 Enterprise-Anwendungen</td><td style="width: 50%; height: 43px;">20.000</td></tr><tr style="height: 23px;"><td style="width: 50%; height: 23px;">Dynamics 365 Professional</td><td style="width: 50%; height: 23px;">10.000</td></tr><tr style="height: 23px;"><td style="width: 50%; height: 23px;">Dynamics 365-Teammitglieder</td><td style="width: 50%; height: 23px;">5.000</td></tr><tr style="height: 23px;"><td style="width: 50%; height: 23px;">Power Apps pro Benutzerplan</td><td style="width: 50%; height: 23px;">5.000</td></tr><tr style="height: 23px;"><td style="width: 50%; height: 23px;">Power Automate pro Benutzerplan</td><td style="width: 50%; height: 23px;">5.000</td></tr><tr style="height: 43px;"><td style="width: 50%; height: 43px;">Office-Lizenzen (mit Power Apps/Power Automate)</td><td style="width: 50%; height: 43px;">2.000</td></tr></tbody></table>
+| Benutzerlizenzen                                | Anzahl API-Anforderungen / 24 Stunden |
+|-------------------------------------------------|---------------------------------------|
+| Dynamics 365 Enterprise-Anwendungen             | 20.000                                |
+| Dynamics 365 Professional                       | 10.000                                |
+| Dynamics 365-Teammitglieder                     | 5.000                                 |
+| Power Apps pro Benutzerplan                     | 5.000                                 |
+| Power Automate pro Benutzerplan                 | 5.000                                 |
+| Office-Lizenzen (mit Power Apps/Power Automate) | 2.000                                 |
 
 (Quelle: [https://docs.microsoft.com/de-de/power-platform/admin/api-request-limits-allocations](https://docs.microsoft.com/de-de/power-platform/admin/api-request-limits-allocations#microsoft-power-platform-requests-allocations-based-on-licenses) Stand: 18.04.2020; Einschränkungen in den Lizenzen bitten dem Docs-Artikel entnehmen)
 

@@ -1,11 +1,18 @@
 ---
+title: SharePoint "erstellt von"- und "geändert von"-Felder mit Power Automate und
+  REST API aktualisieren
+date: 2020-06-12 00:00:00 Z
+tags:
+- Office 365
+- Power Automate
+- HowTo
+- Deutsch
+- SharePoint Online
+- REST API
 layout: post
-title: "SharePoint \"erstellt von\"- und \"geändert von\"-Felder mit Power Automate und REST API aktualisieren"
-date: "2020-06-12"
-tags: [Office 365,Power Automate,HowTo,Deutsch,SharePoint Online,REST API]
-feature-img: "assets/img/posts/2020-06-12/Image-1280.png"
+feature-img: assets/img/posts/2020-06-12/Image-1280.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 english version below

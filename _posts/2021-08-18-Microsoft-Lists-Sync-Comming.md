@@ -1,10 +1,16 @@
 ---
-layout: post
 title: Microsoft Lists Sync is coming back
-tags: [Lists,SharePoint Online,OneDrive,Nucleus]
+date: 2021-08-18 00:00:00 Z
+tags:
+- Lists
+- SharePoint Online
+- OneDrive
+- Nucleus
+layout: post
 author: get-adr
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
+
 # Back to the future
 
 Back in 2010 there was SharePoint Workspace, that enables sync of SharePoint On-Prem content including lists. Last year at Ignite Jeff Teper announced Project Nucleus to bring back that kind of functionality and more. Jeff spoke about the following key features:

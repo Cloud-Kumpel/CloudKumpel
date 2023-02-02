@@ -1,11 +1,14 @@
 ---
+title: Power Automate - Repeating items in Teams adaptive cards
+date: 2020-12-13 00:00:00 Z
+tags:
+- Adaptive Cards
+- Microsoft Teams
+- Power Automate
 layout: post
-title: "Power Automate - Repeating items in Teams adaptive cards"
-date: "2020-12-13"
-tags: [Adaptive Cards,Microsoft Teams,Power Automate]
-feature-img: "assets/img/posts/2020-12-13/Image-1932-1.png"
+feature-img: assets/img/posts/2020-12-13/Image-1932-1.png
 author: MarvinBangert
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 Hey folks,

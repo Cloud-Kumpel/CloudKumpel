@@ -1,10 +1,12 @@
 ---
-layout: post
 title: What's your title
+layout: post
 hide_title: true
 feature-img: assets/img/feature-img/story.jpeg
 author: mhagnumdw
-tags: [Test, Image]
+tags:
+- Test
+- Image
 ---
 
 This is an example of a post which includes a feature image that has a

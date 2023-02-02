@@ -1,7 +1,9 @@
 ---
-layout: post
 title: Dark Mode
-tags: [Katex, Markdown]
+layout: post
+tags:
+- Katex
+- Markdown
 author: MarvinBangert
 ---
 

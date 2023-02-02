@@ -1,9 +1,9 @@
 ---
-layout: page
 title: Gallery
+permalink: "/gallery/"
+layout: page
 subtitle: From the pexels folder
-permalink: /gallery/
-gallery_path: "assets/img/pexels"
+gallery_path: assets/img/pexels
 hide: true
 sitemap: false
 ---

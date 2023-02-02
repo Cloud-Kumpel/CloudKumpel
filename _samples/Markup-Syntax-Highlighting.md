@@ -1,8 +1,10 @@
 ---
+title: 'Markup: Syntax Highlighting'
 layout: post
-title: "Markup: Syntax Highlighting"
 author: mmistakes
-tags: [Highlight, Markdown]
+tags:
+- Highlight
+- Markdown
 ---
 
 Syntax highlighting[^1] is a feature that displays source code. 

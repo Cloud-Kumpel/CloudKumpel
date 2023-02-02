@@ -1,10 +1,12 @@
 ---
-layout: post
 title: Color Post
-tags: [Test, Color]
+layout: post
+tags:
+- Test
+- Color
 color: brown
 author: get-adr
-excerpt_separator: <!--more-->
+excerpt_separator: "<!--more-->"
 ---
 
 # What a colorful post!

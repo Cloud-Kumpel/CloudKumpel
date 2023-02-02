@@ -1,8 +1,8 @@
 ---
-layout: post
 title: Tower of Hanoi
-img: "assets/img/portfolio/toh.png"
-date: September 2014
+date: 2014-09-01 00:00:00 Z
+layout: post
+img: assets/img/portfolio/toh.png
 ---
 
 ![image]({{ page.img | relative_url }})
