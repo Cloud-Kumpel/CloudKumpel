@@ -14,12 +14,15 @@ fields:
 - type: text
   name: layout
   label: layout
+  default: post
 - type: file
   name: feature-img
   label: feature-img
+  default: "/assets/img/posts/2023-02-02/header-image.png"
 - type: text
   name: author
   label: author
+  default: MarvinBangert;get-adr
 - type: text
   name: excerpt_separator
   label: excerpt_separator
