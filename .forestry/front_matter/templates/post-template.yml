@@ -29,5 +29,3 @@ fields:
 - type: text
   name: excerpt_separator
   label: excerpt_separator
-pages:
-- _posts/test-cms.md
