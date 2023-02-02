@@ -34,3 +34,5 @@ fields:
 - type: text
   name: excerpt_separator
   label: excerpt_separator
+pages:
+- _posts/2023-02-02-test-cms.md
