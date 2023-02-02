@@ -29,3 +29,5 @@ fields:
 - type: datetime
   name: lastmod
   label: lastmod
+pages:
+- _posts/my-cms-test.md
