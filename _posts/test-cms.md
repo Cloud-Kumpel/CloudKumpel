@@ -6,7 +6,7 @@ excerpt_separator: "<!--more-->"
 title: Test CMS
 date: 2023-01-31T00:00:00+01:00
 tags: []
-lastmod: 
+lastmod: 2023-01-31T00:00:00+01:00
 
 ---
 Hello, World!
