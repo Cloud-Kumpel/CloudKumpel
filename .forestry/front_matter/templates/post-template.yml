@@ -15,8 +15,10 @@ fields:
   config:
     use_select: true
     source:
-      type: simple
+      type: documents
       section: posts
+      file: 
+      path: tags
     options:
     - Power Apps
     - Power Automate
