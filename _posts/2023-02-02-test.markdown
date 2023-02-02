@@ -1,11 +1,11 @@
 ---
 title: 2023-02-02-test
-date: 2023-02-02T19:12:00.000+00:00
+date: 2023-02-02 19:12:00 Z
 tags:
 - test
 layout: post
-
 ---
+
 Das ist ein neuer Artikel, mal schauen wie das so funktioniert!
 
 hier ein eingefügtes Bild:
