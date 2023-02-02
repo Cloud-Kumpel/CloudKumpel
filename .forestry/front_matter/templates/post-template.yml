@@ -15,10 +15,10 @@ fields:
   config:
     use_select: true
     source:
-      type: documents
+      type: simple
       section: posts
       file: 
-      path: tags
+      path: ''
     options:
     - Power Apps
     - Power Automate
@@ -45,6 +45,15 @@ fields:
     - Power Pages
     - Power Automate Desktop
     - REST API
+    - PowerShell
+    - Microsoft Teams
+    - Microsoft 365
+    - Home Assistant
+    - Smarthome
+    - WebDAV
+    - Word
+    - Excel
+    - PowerPoint
 - type: text
   name: layout
   label: layout
