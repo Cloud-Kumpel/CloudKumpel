@@ -14,7 +14,7 @@ collections:
     output: true
 baseurl: "/"
 url: https://cloudkumpel.de
-description: Modern Collaboration on Microsoft 365, Azure and more...
+description: Modern Collaboration on Microsoft 365, Power Platform, Azure and more...
 avatar: assets/img/fraktalcloud.png
 favicon: assets/favicon.ico
 header_text: CLOUD KUMPEL
