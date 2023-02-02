@@ -26,6 +26,7 @@ fields:
 - type: text
   name: excerpt_separator
   label: excerpt_separator
+  default: "<!--more-->"
 - type: datetime
   name: lastmod
   label: lastmod
