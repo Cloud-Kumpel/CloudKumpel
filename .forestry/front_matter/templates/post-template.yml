@@ -79,3 +79,5 @@ fields:
   name: excerpt_separator
   label: excerpt_separator
   default: "<!--more-->"
+pages:
+- _posts/2023-02-02-test-cms.md
