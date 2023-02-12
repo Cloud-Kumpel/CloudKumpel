@@ -3,7 +3,7 @@ layout: post
 feature-img: assets/img/posts/2023-02-02/header-image.png
 author: MarvinBangert
 excerpt_separator: "<!--more-->"
-title: 2023-02-12-PowerAutomate-Create-SharePoint-Site-Collection
+title: PowerAutomate - Create SharePoint site collection
 date: 2023-02-12T00:00:00+01:00
 tags:
 - Quick Tip
