@@ -106,18 +106,14 @@ Other parameters you are able to use, which are not documented:
 
 * TimeZoneId: If you want to automatically set a specific time zone, you can add this parameter to the body request. You need to define the time zone id like:
   
+"TimeZoneID" : 4
   
-  "TimeZoneID" : 4
-  
-  
-  Here you will find some more IDs you can use for the specific time zone: Reference: [SharePoint Time Zone IDs (pkbullock.com)](https://pkbullock.com/resources/reference-sharepoint-time-zone-ids/)
+Here you will find some more IDs you can use for the specific time zone: Reference: [SharePoint Time Zone IDs (pkbullock.com)](https://pkbullock.com/resources/reference-sharepoint-time-zone-ids/)
 * HubSiteId: To automatically add a site collection to a hub, you can use the following parameter:
 
+"HubSiteId": "00000000-0000-0000-0000-000000000000"
 
-  "HubSiteId": "00000000-0000-0000-0000-000000000000"
-
-
-  To get the HubSiteId, similar to the SensitivityLabel, you can use the same technique to look for an existing hub id. You can execute this on either the hubsite itself or a site associated to the hub. The parameter you are looking for is "HubSiteId".
+To get the HubSiteId, similar to the SensitivityLabel, you can use the same technique to look for an existing hub id. You can execute this on either the hubsite itself or a site associated to the hub. The parameter you are looking for is "HubSiteId".
 
 **Response**
 
