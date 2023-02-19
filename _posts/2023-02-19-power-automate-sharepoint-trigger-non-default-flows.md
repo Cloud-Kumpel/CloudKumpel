@@ -32,7 +32,7 @@ But as flows from other environments are not returned (yet?), we need to use a w
    ![]({{"assets/img/posts/2023-02-19/2023-02-19-02.png" | relative_url}})
    
 2. Format the column
-   ![]({{"assets/img/posts/2023-02-19/2023-02-19-03.png" | relative_url}})
+  ![]({{"assets/img/posts/2023-02-19/2023-02-19-03.png" | relative_url}})
    
 3. Switch to "Advanced mode" and add the following code
    ![]({{"assets/img/posts/2023-02-19/2023-02-19-04.png" | relative_url}})
