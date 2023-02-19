@@ -28,19 +28,19 @@ When hovering over / clicking on "Automate", in the background the method "SyncF
 
 But as flows from other environments are not returned (yet?), we need to use a workaround:
 
-* Create a SharePoint text column
+1. Create a SharePoint text column
 
   First, we need to create a new SharePoint column within the library. You can call it as you like, the name is not important, we just need to have a column that can be formatted and show the "trigger button".
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-02.png" | relative_url}})
    
-* Format the column
+2. Format the column
 
   Next, we need to format this new created column.
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-03.png" | relative_url}})
    
-* Switch to "Advanced mode" and add the following code
+3. Switch to "Advanced mode" and add the following code
 
   Inside the advanced mode, we can add some custom JSON, you can see a simple example script below.
 
@@ -80,13 +80,13 @@ But as flows from other environments are not returned (yet?), we need to use a w
 
   Using the action "executeFlow" and the parameter of the Flow ID, we are able to trigger a flow.
 
-* Open Power Automate, click on "the three dots" - "Export" - "Get flow identifier" and copy the the flow identifier.
+4. Open Power Automate, click on "the three dots" - "Export" - "Get flow identifier" and copy the the flow identifier.
 
   To be able to trigger the flow, we need to unique identifier of the flow we want to trigger within our non-default environment.
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-05.png" | relative_url}})
   
-* Now replace the <Flow ID> with the flow identifier:
+5. Now replace the <Flow ID> with the flow identifier:
 
        {
            "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
@@ -124,7 +124,7 @@ But as flows from other environments are not returned (yet?), we need to use a w
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-06.png" | relative_url}})
 
-* Clicking on the item will open the "Run flow" dialog and you are able to trigger the flow:
+6. Clicking on the item will open the "Run flow" dialog and you are able to trigger the flow:
 
   Click on the link of an item to open the run flow dialog and start the flow.
   
