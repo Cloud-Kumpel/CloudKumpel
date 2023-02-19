@@ -22,7 +22,7 @@ This post will be a brief overview of how to trigger a Power Automate flow, whic
 
 As you may have noticed, if you create a flow using the SharePoint triggers "For a selected item" or "For a selected file" within a non-default environment, you cannot find it within the "Automate" option inside a SharePoint list or library.
 
-![](assets/img/posts/2023-02-19/2023-02-19-01.png)
+![]({{"assets/img/posts/2023-02-19/2023-02-19-01.png" | relative_url}})
 
 When hovering over / clicking on "Automate", in the background the method "SyncFlowInstances" is triggered and returns a list of flow instances from the default environment, attached to the list and available by the current user.
 
@@ -30,13 +30,15 @@ But as flows from other environments are not returned (yet?), we need to use a w
 
 1. Create a SharePoint text column
 
-   ![](assets/img/posts/2023-02-19/2023-02-19-02.png)
+   ![]({{"assets/img/posts/2023-02-19/2023-02-19-02.png" | relative_url}})
+   
 2. Format the column
 
-   ![](assets/img/posts/2023-02-19/2023-02-19-03.png)
+   ![]({{"assets/img/posts/2023-02-19/2023-02-19-03.png" | relative_url}})
+   
 3. Switch to "Advanced mode" and add the following code
 
-   ![](assets/img/posts/2023-02-19/2023-02-19-04.png)
+   ![]({{"assets/img/posts/2023-02-19/2023-02-19-04.png" | relative_url}})
 
        {
            "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
@@ -74,7 +76,8 @@ But as flows from other environments are not returned (yet?), we need to use a w
 
 4. Open Power Automate, click on "the three dots" - "Export" - "Get flow identifier" and copy the the flow identifier.
 
-   ![](assets/img/posts/2023-02-19/2023-02-19-05.png)
+   ![]({{"assets/img/posts/2023-02-19/2023-02-19-05.png" | relative_url}})
+   
 5. Now replace the <Flow ID> with the flow identifier:
 
        {
@@ -111,11 +114,12 @@ But as flows from other environments are not returned (yet?), we need to use a w
 
   You can also replace the "<Display Name>" value to change Display Name visible inside the list:
 
-![](assets/img/posts/2023-02-19/2023-02-19-06.png)
+  ![]({{"assets/img/posts/2023-02-19/2023-02-19-06.png" | relative_url}})
 
 6. Clicking on the item will open the "Run flow" dialog and you are able to trigger the flow:
 
-   ![](assets/img/posts/2023-02-19/2023-02-19-07.png)
+  ![]({{"assets/img/posts/2023-02-19/2023-02-19-07.png" | relative_url}})
+
 
 Thanks for reading, I hope you liked it and it will help you!
 
