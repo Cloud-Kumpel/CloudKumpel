@@ -82,8 +82,10 @@ But as flows from other environments are not returned (yet?), we need to use a w
 
 4. Open Power Automate, click on "the three dots" - "Export" - "Get flow identifier" and copy the the flow identifier.
 
-   ![]({{"assets/img/posts/2023-02-19/2023-02-19-05.png" | relative_url}})
-   
+  ![]({{"assets/img/posts/2023-02-19/2023-02-19-05.png" | relative_url}})
+  
+  **Image 4** Get flow identifier
+  
 5. Now replace the <Flow ID> with the flow identifier:
 
        {
@@ -121,10 +123,14 @@ But as flows from other environments are not returned (yet?), we need to use a w
   You can also replace the "<Display Name>" value to change Display Name visible inside the list:
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-06.png" | relative_url}})
+  
+  **Image 5** Replace Flow ID
 
 6. Clicking on the item will open the "Run flow" dialog and you are able to trigger the flow:
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-07.png" | relative_url}})
+  
+  **Image 6** Run flow
 
 
 Thanks for reading, I hope you liked it and it will help you!
