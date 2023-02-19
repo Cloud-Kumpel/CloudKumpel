@@ -28,19 +28,17 @@ When hovering over / clicking on "Automate", in the background the method "SyncF
 
 But as flows from other environments are not returned (yet?), we need to use a workaround:
 
-## Create a SharePoint text column
+### Create a SharePoint text column
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-02.png" | relative_url}})
 
   First, we need to create a new SharePoint column within the library. You can call it as you like, the name is not important, we just need to have a column that can be formatted and show the "trigger button".    
     
-## Format the column
+### Format the column
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-03.png" | relative_url}})
 
-  Next, we need to format this new created column.
-
-## Switch to "Advanced mode" and add the following code
+  Next, we need to format this new created column. Switch to the advanced mode within the "Format column" window.
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-04.png" | relative_url}})
 
@@ -81,13 +79,15 @@ But as flows from other environments are not returned (yet?), we need to use a w
 
   Using the action "executeFlow" and the parameter of the Flow ID, we are able to trigger a flow.
 
-## Open Power Automate, click on "the three dots" - "Export" - "Get flow identifier" and copy the the flow identifier.
+### Get flow Identifier
 
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-05.png" | relative_url}})
 
-  To be able to trigger the flow, we need to unique identifier of the flow we want to trigger within our non-default environment.
+  To be able to trigger the flow, we need to unique identifier of the flow we want to trigger within our non-default environment. To get this, open Power Automate, click on the three dots - Export - Get flow identifier and copy the value into your clipboard.
 
-## Now replace the <Flow ID> with the flow identifier:
+### Add identifier to code
+
+  Next, you need to replace the copied value where the <Flow ID> value currently is as a placeholder:
 
        {
            "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
@@ -128,7 +128,7 @@ But as flows from other environments are not returned (yet?), we need to use a w
   e.g., you can use the same name as the flow or just "start flow".
   
   
-## Run flow
+### Run flow
   
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-07.png" | relative_url}})
 
