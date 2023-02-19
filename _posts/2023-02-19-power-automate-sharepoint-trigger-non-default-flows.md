@@ -87,7 +87,7 @@ But as flows from other environments are not returned (yet?), we need to use a w
 
 ### Add identifier to code
 
-  Next, you need to replace the copied value where the <Flow ID> value currently is as a placeholder:
+  Next, you need to replace the copied value where the "Flow ID" value currently is as a placeholder:
 
        {
            "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/column-formatting.schema.json",
@@ -121,7 +121,7 @@ But as flows from other environments are not returned (yet?), we need to use a w
            ]
        }
 
-  You should also replace the "<Display Name>" value to something more speaking for the users:
+  You should also replace the "Display Name" value to something more speaking for the users:
   
   ![]({{"assets/img/posts/2023-02-19/2023-02-19-06.png" | relative_url}})
   
