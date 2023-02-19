@@ -4,7 +4,7 @@ feature-img: assets/img/posts/2023-02-02/header-image.png
 author: MarvinBangert
 excerpt_separator: "<!--more-->"
 title: Power Automate - SharePoint trigger non-default flows
-date: 2023-02-19T04:00:00+01:00
+date: 2023-02-19T00:00:00+01:00
 tags:
 - Quick Tip
 - SharePoint
