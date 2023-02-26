@@ -3,7 +3,7 @@ layout: post
 feature-img: assets/img/posts/2023-02-02/header-image.png
 author: MarvinBangert
 excerpt_separator: "<!--more-->"
-title: 2023-02-26-Power-Automate-Filter-list-to-last-record-per-user
+title: Power Automate - Filter list to last record per user
 date: 2023-02-26T21:00:00+01:00
 tags:
 - Quick Tip
