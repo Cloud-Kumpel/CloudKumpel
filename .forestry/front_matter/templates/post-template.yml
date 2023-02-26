@@ -82,3 +82,4 @@ fields:
 pages:
 - _posts/2023-02-12-powerautomate-create-sharepoint-site-collection.md
 - _posts/2023-02-19-power-automate-sharepoint-trigger-non-default-flows.md
+- _posts/2023-02-26-power-automate-filter-list-to-last-record-per-user.md
