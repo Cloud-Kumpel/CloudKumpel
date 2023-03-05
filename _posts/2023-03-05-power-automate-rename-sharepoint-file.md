@@ -28,12 +28,12 @@ As you figured out already, when you are using the "Update file properties" acti
     Method: POST
     URI: _api/web/lists/getbytitle('<Library name>')/items(<Item ID>)
     Headers:
-    	{
-     		"Accept": "Application/json;odata=verbose",
-      		"Content-Type": "Application/json;odata=verbose",
-      		"IF-MATCH": "*",
-    		"X-HTTP-Method": "MERGE"
-    	}
+     {
+        "Accept": "Application/json;odata=verbose",
+        "Content-Type": "Application/json;odata=verbose",
+        "IF-MATCH": "*",
+        "X-HTTP-Method": "MERGE"
+     }
         
      Body:
      {
