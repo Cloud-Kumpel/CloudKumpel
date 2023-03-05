@@ -4,7 +4,7 @@ feature-img: assets/img/posts/2023-02-02/header-image.png
 author: MarvinBangert
 excerpt_separator: "<!--more-->"
 title: Power Automate - Rename SharePoint file
-date: 2023-03-05T20:00:00+01:00
+date: 2023-03-05
 tags:
 - Quick Tip
 - REST API
