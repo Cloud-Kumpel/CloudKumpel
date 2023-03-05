@@ -3,7 +3,7 @@ layout: post
 feature-img: assets/img/posts/2023-02-02/header-image.png
 author: MarvinBangert
 excerpt_separator: "<!--more-->"
-title: 2023-03-05-Power-Automate-Rename-SharePoint-File
+title: Power Automate - Rename SharePoint file
 date: 2023-03-05T20:00:00+01:00
 tags:
 - Quick Tip
@@ -22,7 +22,7 @@ Today, there is a short quick tip on how to change the name of a document using 
 
 As you figured out already, when you are using the "Update file properties" action within Power Automate, you are only able to update the title field of a document, but not the name of the document. To update the file name, you need to use the "Send an HTTP request to SharePoint" action and update the field "FileLeafRef" as it references to the "name column" of the SharePoint library.
 
-![](assets/img/posts/2023-03-05/2023-03-05-1-2.png)
+![]({{"assets/img/posts/2023-03-05/2023-03-05-1-2.png" | relative_url}})
 
     Site Address: <Your SharePoint site address>
     Method: POST
@@ -46,10 +46,16 @@ As you figured out already, when you are using the "Update file properties" acti
 
 ### Result
 
-![](assets/img/posts/2023-03-05/2023-03-05-2.png)
+![]({{"assets/img/posts/2023-03-05/2023-03-05-2.png" | relative_url}})
 
 turns to
 
-![](assets/img/posts/2023-03-05/2023-03-05-3.png)
+![]({{"assets/img/posts/2023-03-05/2023-03-05-3.png" | relative_url}})
 
 Make sure you are also setting the right document type, otherwise your file might not work anymore.
+
+Thanks for reading, I hope you liked it and it will help you!
+
+[Glück auf](https://en.wikipedia.org/wiki/Gl%C3%BCck_auf)
+
+Marvin
