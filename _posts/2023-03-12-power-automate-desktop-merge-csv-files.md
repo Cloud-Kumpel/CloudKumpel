@@ -3,16 +3,18 @@ layout: post
 feature-img: assets/img/posts/2023-02-02/header-image.png
 author: MarvinBangert
 excerpt_separator: "<!--more-->"
-title: 2023-03-12-Power-Automate-Desktop-merge-csv-files
+title: Power Automate Desktop - merge CSV files
 date: 2023-03-12T00:00:00+01:00
 tags:
 - Quick Tip
 - SharePoint Online
-- Power Automate
+- Power Automate Desktop
 description: ''
 keywords: []
 
 ---
+
+
 Hey folks,
 
 Today, we will learn how to use Power Automate Desktop to merge two or more csv files into one. In my case, I am using the SharePoint Migration Manager to migrate files from a file share to SharePoint Online and I want to combine a couple of files to import them easily into Power BI for further analysis.
@@ -33,27 +35,27 @@ In my case, I have different migration jobs to the same SharePoint site collecti
 
 First, I need to download the csv files from SharePoint Admin Center, just select the migration job and click on "Download task report". Within your download folder on your client, you should see one or multiple zip folders with a GUID (the GUID of the migration task). 
 
-![](assets/img/posts/2023-03-12/2023-03-12-01-1.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-01-1.png" | relative_url}})
 
 When you unzip these folders, you will see all the different csv files:
 
-![](assets/img/posts/2023-03-12/2023-03-12-02-1.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-02-1.png" | relative_url}})
 
 I am interested in all "ItemReport" files, as they give me an overview about which item was migrated or not migrated. Also, I am looking for the "StructureReport" file to get the site collection name.
 
 Before we start, the first action in my flow is to select all the zip files I want to go through:
 
-![](assets/img/posts/2023-03-12/2023-03-12-03.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-03.png" | relative_url}})
 
 (I am using subflows, that's why this action is not the first action in the other screenshots):
 
-![](assets/img/posts/2023-03-12/2023-03-12-05-1.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-05-1.png" | relative_url}})
 
 ### Create file
 
 As I could have different SharePoint site collections where I migrated to and I want to group the merged csv files by these site collections, I need to create a new file with the name of the site collection (if it doesn't exist). Here is the first part of the flow:
 
-![](assets/img/posts/2023-03-12/2023-03-12-04.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-04.png" | relative_url}})
 
 As we loaded all files into the variable "SelectedFiles", we use a "For each" action to go through each of the zip files and save this current file in the variable "CurrentZip".
 
@@ -63,22 +65,22 @@ My structure for the unzip is having a folder "Demo" and a folder "Exporte" (eng
 
 Afterwards we unzip the current zip file we are running on into the "Exporte" folder:
 
-![](assets/img/posts/2023-03-12/2023-03-12-06.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-06.png" | relative_url}})
 
 Next, we can already delete the zip file, as we have all documents extracted and want to keep our downloads clean afterwards (to also see we run through every zip file, of course you can also put this action to the end).
 
 Now, we need to find the name of the site collection it migrated to. The easiest is by using the "StructureReport" file and getting the information from a specific column and row.
 
-![](assets/img/posts/2023-03-12/2023-03-12-08.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-08.png" | relative_url}})
 
-![](assets/img/posts/2023-03-12/2023-03-12-10.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-10.png" | relative_url}})
 
 Depending on your CSV file and, you need to change the encoding and the seperator. Also, it's helpful to activate "First line contains column names".
 
 There should always be a "StructureReport_R1" file and as the R1 and R2 only stands for the rounds and the target shouldn't change, we can always reference on the R1 file and save it into a variable "StructureReportFile". In the next action, we set a variable with the specific value from this file.
 
 To understand what is happening in the formula, let's have a look inside the variable "StructureReportFile":  
-![](assets/img/posts/2023-03-12/2023-03-12-09.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-09.png" | relative_url}})
 
 When you run the flow until this point and check the variable, you will see the following table. As you can see, we have rows (and a row number on the left) and headers. Like Excel, we can now reference this information to get a specific value from the data table.
 
@@ -96,11 +98,11 @@ In this case we set another variable "OutputFile" with the value "C:\\Demo\\Torc
 
 As we only want one file, we check if this file already exists:
 
-![](assets/img/posts/2023-03-12/2023-03-12-11.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-11.png" | relative_url}})
 
 If the file doesn't exist, it will be created by writing the header from the "ItemReport" files into it (so we don't need to come up with a way how to extract the headers (of course we could also make it more dynamic, maybe a topic for another blog post). If somewhen in the future the headers change, we need to update this, but this will not happen so often. You can just open an "ItemReport" file and copy the header or use the one below:
 
-![](assets/img/posts/2023-03-12/2023-03-12-12.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-12.png" | relative_url}})
 
     Source,Destination,Item name,Extension,Item size (bytes),Type,Status,Result category,Message,Source item ID,Destination item ID,Package number,Migration job ID,Incremental round,Task ID,Device name
 
@@ -110,28 +112,34 @@ Now, for each zip file we are running on, first we will get the name of the targ
 
 Next, we need to combine all the "ItemReport" files. Also, this part isn't difficult:
 
-![](assets/img/posts/2023-03-12/2023-03-12-13-1.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-13-1.png" | relative_url}})
 
 As there could be a different number of rounds for each migration job, we first get all of them using an asterisk (*):
 
-![](assets/img/posts/2023-03-12/2023-03-12-14.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-14.png" | relative_url}})
 
 The asterisk (*) can stand for anything, so we will get all files of "ItemReport" regardless of if there are 1 or 5 of them.
 
 Then, we do another "for each", to go through each of the files found by the "Get files in folder".
 
-![](assets/img/posts/2023-03-12/2023-03-12-15.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-15.png" | relative_url}})
 
 Make sure you select the "First line contains column names" again, as we then don't need to deal with them writing to the new file.
 
 Last this we need to do is appending the content into the new CSV file:
 
-![](assets/img/posts/2023-03-12/2023-03-12-16.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-16.png" | relative_url}})
 
 Make sure to not include the column names (headers) here and to select "Append content" if the file already exists.
 
 Running the flow will create different CSV files with all content from other CSV files merged into it:
 
-![](assets/img/posts/2023-03-12/2023-03-12-17.png)
+![]({{"assets/img/posts/2023-03-12/2023-03-12-17.png" | relative_url}})
 
 Currently, I upload these files to a SharePoint site afterwards, where a Power BI is pulling this information into a Power BI report. In the future this could also be implemented within Power Automate Desktop, but the SharePoint connectors are currently in Preview and require an additional license.
+
+Thanks for reading, I hope you liked it and it will help you!
+
+[Glück auf](https://en.wikipedia.org/wiki/Gl%C3%BCck_auf)
+
+Marvin
